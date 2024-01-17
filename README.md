@@ -1,4 +1,4 @@
-# repository-name
+repository-name
 # Repository Name
 
 Based on "ABC" at https://www.abc.com/
