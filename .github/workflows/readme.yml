@@ -35,3 +35,15 @@ jobs:
         uses: dephraiim/translate-readme@main
         with:
           LANG: fr
+      - name: Adding README - German
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: de
+      - name: Adding README - Dutch
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: nl
+      - name: Adding README - Spanish
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: es
