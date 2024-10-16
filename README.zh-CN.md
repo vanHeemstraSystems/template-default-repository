@@ -2,7 +2,7 @@
 
 # 存储库名称
 
-Based on "ABC" at <https://www.abc.com/>
+基于“ABC”<https://www.abc.com/>
 
 ## 100 - 简介
 
