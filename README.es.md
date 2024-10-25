@@ -2,7 +2,13 @@ nombre-repositorio
 
 # Nombre del repositorio
 
-Basado en "ABC" en<https://www.abc.com/>
+> línea de bala
+
+[Referencias](./REFERENCES.md)
+
+**Resumen ejecutivo**
+
+Texto
 
 ## 100 - Introducción
 
