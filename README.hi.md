@@ -1,6 +1,6 @@
 भंडार-नाम
 
-# भंडार का नाम
+# Repository Name
 
 "एबीसी" पर आधारित<https://www.abc.com/>
 
@@ -12,7 +12,7 @@
 
 देखना[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - हमारे एप्लिकेशन का निर्माण
 
 देखना[README.md](./300/README.md)
 
