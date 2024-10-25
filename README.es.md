@@ -2,7 +2,7 @@ nombre-repositorio
 
 # Nombre del repositorio
 
-> línea de bala
+> Slugline
 
 [Referencias](./REFERENCES.md)
 
