@@ -2,7 +2,13 @@ repositorynaam
 
 # Naam van opslagplaats
 
-Gebaseerd op "ABC" op<https://www.abc.com/>
+> Slaklijn
+
+[Referenties](./REFERENCES.md)
+
+**Samenvatting**
+
+Tekst
 
 ## 100 - Inleiding
 
