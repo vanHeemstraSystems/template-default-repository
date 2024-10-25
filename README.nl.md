@@ -10,7 +10,7 @@ repositorynaam
 
 Tekst
 
-## 100 - Introduction
+## 100 - Inleiding
 
 Zien[README.md](./100/README.md)
 
