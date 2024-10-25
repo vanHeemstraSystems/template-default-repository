@@ -2,7 +2,13 @@ Repository-Name
 
 # Repository-Name
 
-Basierend auf „ABC“ unter<https://www.abc.com/>
+> Slugline
+
+[Referenzen](./REFERENCES.md)
+
+**Zusammenfassung**
+
+Text
 
 ## 100 - Einführung
 
