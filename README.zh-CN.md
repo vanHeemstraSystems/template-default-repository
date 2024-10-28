@@ -1,6 +1,6 @@
 存储库名称
 
-# Repository Name
+# 存储库名称
 
 > 斯拉格莱恩
 
@@ -12,7 +12,7 @@
 
 ## 100 - 简介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
