@@ -1,4 +1,4 @@
-repositorynaam
+repository-name
 
 # Naam van opslagplaats
 
