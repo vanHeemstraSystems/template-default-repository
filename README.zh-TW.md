@@ -1,4 +1,4 @@
-儲存庫名稱
+repository-name
 
 # 儲存庫名稱
 
@@ -6,17 +6,17 @@
 
 [參考](./REFERENCES.md)
 
-**Executive Summary**
+**執行摘要**
 
-Text
+文字
 
-## 100 - 簡介
+## 100 - Introduction
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
 ## 200 - 要求
 
-看[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300 - 建立我們的應用程式
 
