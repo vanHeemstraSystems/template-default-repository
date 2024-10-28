@@ -1,4 +1,4 @@
-repository-name
+Repository-Name
 
 # Repository-Name
 
@@ -6,11 +6,11 @@ repository-name
 
 [Referenzen](./REFERENCES.md)
 
-**Zusammenfassung**
+**Executive Summary**
 
 Text
 
-## 100 - Einführung
+## 100 - Introduction
 
 Sehen[README.md](./100/README.md)
 
