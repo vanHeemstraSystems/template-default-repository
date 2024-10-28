@@ -1,10 +1,10 @@
-repository-name
+اسم المستودع
 
 # اسم المستودع
 
 > سلوجلاين
 
-[References](./REFERENCES.md)
+[مراجع](./REFERENCES.md)
 
 **ملخص تنفيذي**
 
@@ -14,7 +14,7 @@ repository-name
 
 يرى[README.md](./100/README.md)
 
-## 200 - المتطلبات
+## 200 - Requirements
 
 يرى[README.md](./200/README.md)
 
@@ -22,6 +22,6 @@ repository-name
 
 يرى[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - الخاتمة
 
 يرى[README.md](./400/README.md)
