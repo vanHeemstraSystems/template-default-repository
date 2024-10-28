@@ -1,10 +1,11 @@
-repository-name
+Repository-Name
 
-# Repository Name
+# Repository-Name
 
 > Slugline
-
-[Referenzen](./REFERENCES.md)
+>
+> -   [Glossar](./GLOSSARY.md)
+> -   [Referenzen](./REFERENCES.md)
 
 **Zusammenfassung**
 
@@ -12,11 +13,11 @@ Text
 
 ## 100 - Introduction
 
-Sehen[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 – Anforderungen
 
-Sehen[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300 – Erstellen unserer Anwendung
 
