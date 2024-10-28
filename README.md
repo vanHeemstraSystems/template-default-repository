@@ -2,8 +2,9 @@ repository-name
 # Repository Name
 
 > Slugline
-
-[References](./REFERENCES.md)
+> 
+ -[Glossary](./GLOSSARY.md)
+- [References](./REFERENCES.md)
 
 **Executive Summary**
 
