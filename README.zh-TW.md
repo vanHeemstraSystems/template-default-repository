@@ -3,8 +3,9 @@
 # 儲存庫名稱
 
 > 斯拉格萊恩
-
-[參考](./REFERENCES.md)
+>
+> -   [詞彙表](./GLOSSARY.md)
+> -   [參考](./REFERENCES.md)
 
 **執行摘要**
 
@@ -24,4 +25,4 @@
 
 ## 400 - 結論
 
-See [README.md](./400/README.md)
+看[README.md](./400/README.md)
