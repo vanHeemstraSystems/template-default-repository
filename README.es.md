@@ -1,4 +1,4 @@
-repository-name
+nombre-repositorio
 
 # Nombre del repositorio
 
@@ -8,7 +8,7 @@ repository-name
 
 **Resumen ejecutivo**
 
-Text
+Texto
 
 ## 100 - Introducción
 
@@ -18,7 +18,7 @@ Ver[README.md](./100/README.md)
 
 Ver[README.md](./200/README.md)
 
-## 300 - Construyendo nuestra aplicación
+## 300 - Building Our Application
 
 Ver[README.md](./300/README.md)
 
