@@ -3,7 +3,7 @@ repository-name
 
 > Slugline
 > 
- -[Glossary](./GLOSSARY.md)
+- [Glossary](./GLOSSARY.md)
 - [References](./REFERENCES.md)
 
 **Executive Summary**
