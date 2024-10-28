@@ -6,7 +6,7 @@
 
 [संदर्भ](./REFERENCES.md)
 
-**कार्यकारी सारांश**
+**Executive Summary**
 
 मूलपाठ
 
