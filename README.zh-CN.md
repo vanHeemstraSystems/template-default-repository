@@ -2,11 +2,11 @@
 
 # 存储库名称
 
-> 斯拉格莱恩
+> Slugline
 
 [参考](./REFERENCES.md)
 
-**执行摘要**
+**Executive Summary**
 
 文本
 
