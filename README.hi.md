@@ -1,12 +1,12 @@
 भंडार-नाम
 
-# भंडार का नाम
+# Repository Name
 
 > स्लगलाइन
 
 [संदर्भ](./REFERENCES.md)
 
-**Executive Summary**
+**कार्यकारी सारांश**
 
 मूलपाठ
 
@@ -14,7 +14,7 @@
 
 देखना[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - आवश्यकताएँ
 
 देखना[README.md](./200/README.md)
 
