@@ -3,6 +3,6 @@
         "ckolkman.vscode-postgres"
     ]
     "yaml.schemas": {
-        "./threagile/schema.json": ["threagile.yaml"]
+        "./.threagile/schema.json": ["threagile.yaml"]
     }
 }
