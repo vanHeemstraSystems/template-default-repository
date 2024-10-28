@@ -1,4 +1,4 @@
-repository-name
+儲存庫名稱
 
 # 儲存庫名稱
 
@@ -10,13 +10,13 @@ repository-name
 
 文字
 
-## 100 - Introduction
+## 100 - 簡介
 
 看[README.md](./100/README.md)
 
 ## 200 - 要求
 
-See [README.md](./200/README.md)
+看[README.md](./200/README.md)
 
 ## 300 - 建立我們的應用程式
 
