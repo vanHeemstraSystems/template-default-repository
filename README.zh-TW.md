@@ -1,4 +1,4 @@
-儲存庫名稱
+repository-name
 
 # 儲存庫名稱
 
@@ -8,7 +8,7 @@
 
 **執行摘要**
 
-文字
+Text
 
 ## 100 - 簡介
 
@@ -20,7 +20,7 @@
 
 ## 300 - 建立我們的應用程式
 
-See [README.md](./300/README.md)
+看[README.md](./300/README.md)
 
 ## 400 - 結論
 
