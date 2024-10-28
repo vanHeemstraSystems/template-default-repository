@@ -3,14 +3,15 @@ nom du référentiel
 # Nom du référentiel
 
 > Slugline
-
-[Références](./REFERENCES.md)
+>
+> -   [Glossaire](./GLOSSARY.md)
+> -   [Références](./REFERENCES.md)
 
 **Résumé exécutif**
 
 Texte
 
-## 100 - Présentation
+## 100 - Introduction
 
 Voir[README.md](./100/README.md)
 
