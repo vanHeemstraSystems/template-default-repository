@@ -3,8 +3,9 @@
 # 存储库名称
 
 > 斯拉格莱恩
-
-[References](./REFERENCES.md)
+>
+> -   [词汇表](./GLOSSARY.md)
+> -   [参考](./REFERENCES.md)
 
 **执行摘要**
 
@@ -22,6 +23,6 @@
 
 看[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - 结论
 
 看[README.md](./400/README.md)
