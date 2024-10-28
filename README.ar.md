@@ -4,7 +4,7 @@
 
 > سلوجلاين
 
-[References](./REFERENCES.md)
+[مراجع](./REFERENCES.md)
 
 **ملخص تنفيذي**
 
@@ -14,13 +14,13 @@
 
 يرى[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - المتطلبات
 
 يرى[README.md](./200/README.md)
 
 ## 300 – بناء تطبيقنا
 
-See [README.md](./300/README.md)
+يرى[README.md](./300/README.md)
 
 ## 400 - الخاتمة
 
