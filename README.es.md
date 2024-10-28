@@ -3,8 +3,9 @@ nombre-repositorio
 # Nombre del repositorio
 
 > línea de bala
-
-[Referencias](./REFERENCES.md)
+>
+> -   [Glosario](./GLOSSARY.md)
+> -   [Referencias](./REFERENCES.md)
 
 **Resumen ejecutivo**
 
@@ -14,7 +15,7 @@ Texto
 
 Ver[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - Requisitos
 
 Ver[README.md](./200/README.md)
 
