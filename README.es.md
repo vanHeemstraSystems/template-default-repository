@@ -1,14 +1,14 @@
-nombre-repositorio
+repository-name
 
 # Nombre del repositorio
 
 > línea de bala
 
-[References](./REFERENCES.md)
+[Referencias](./REFERENCES.md)
 
 **Resumen ejecutivo**
 
-Texto
+Text
 
 ## 100 - Introducción
 
@@ -16,12 +16,12 @@ Ver[README.md](./100/README.md)
 
 ## 200 - Requisitos
 
-See [README.md](./200/README.md)
+Ver[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - Construyendo nuestra aplicación
 
 Ver[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - Conclusión
 
 Ver[README.md](./400/README.md)
