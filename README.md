@@ -2,7 +2,7 @@ repository-name
 # Repository Name
 
 > Slugline
-> 
+
 - [Glossary](./GLOSSARY.md)
 - [References](./REFERENCES.md)
 
