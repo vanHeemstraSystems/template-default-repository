@@ -1,10 +1,10 @@
-repository-name
+nom du référentiel
 
 # Nom du référentiel
 
 > Slugline
 
--   [Glossary](./GLOSSARY.md)
+-   [Glossaire](./GLOSSARY.md)
 -   [Références](./REFERENCES.md)
 
 **Résumé exécutif**
@@ -13,13 +13,13 @@ Texte
 
 ## 100 - Introduction
 
-See [README.md](./100/README.md)
+Voir[README.md](./100/README.md)
 
 ## 200 - Exigences
 
 Voir[README.md](./200/README.md)
 
-## 300 - Créer notre application
+## 300 - Building Our Application
 
 Voir[README.md](./300/README.md)
 
