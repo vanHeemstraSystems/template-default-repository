@@ -1,11 +1,11 @@
 儲存庫名稱
 
-# 儲存庫名稱
+# Repository Name
 
 > 斯拉格萊恩
 
 -   [詞彙表](./GLOSSARY.md)
--   [參考](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 
 **執行摘要**
 
@@ -23,6 +23,6 @@
 
 看[README.md](./300/README.md)
 
-## 400 - 結論
+## 400 - Conclusion
 
 看[README.md](./400/README.md)
