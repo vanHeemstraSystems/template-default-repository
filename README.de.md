@@ -5,7 +5,7 @@ Repository-Name
 > Slugline
 
 -   [Glossar](./GLOSSARY.md)
--   [References](./REFERENCES.md)
+-   [Referenzen](./REFERENCES.md)
 
 **Zusammenfassung**
 
