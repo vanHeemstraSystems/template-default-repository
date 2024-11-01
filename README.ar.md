@@ -4,7 +4,7 @@
 
 > سلوجلاين
 
--   [مسرد](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [مراجع](./REFERENCES.md)
 
 **ملخص تنفيذي**
