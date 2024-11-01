@@ -1,17 +1,17 @@
 nombre-repositorio
 
-# Repository Name
+# Nombre del repositorio
 
 > línea de bala
 
--   [Glossary](./GLOSSARY.md)
+-   [Glosario](./GLOSSARY.md)
 -   [Referencias](./REFERENCES.md)
 
 **Resumen ejecutivo**
 
 Texto
 
-## 100 - Introduction
+## 100 - Introducción
 
 Ver[README.md](./100/README.md)
 
@@ -19,7 +19,7 @@ Ver[README.md](./100/README.md)
 
 Ver[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - Construyendo nuestra aplicación
 
 Ver[README.md](./300/README.md)
 
