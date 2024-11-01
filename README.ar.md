@@ -7,7 +7,7 @@
 -   [مسرد](./GLOSSARY.md)
 -   [مراجع](./REFERENCES.md)
 
-**ملخص تنفيذي**
+**Executive Summary**
 
 نص
 
