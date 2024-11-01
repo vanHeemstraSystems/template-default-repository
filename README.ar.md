@@ -1,10 +1,10 @@
 اسم المستودع
 
-# اسم المستودع
+# Repository Name
 
-> سلوجلاين
+> Slugline
 
--   [مسرد](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [مراجع](./REFERENCES.md)
 
 **ملخص تنفيذي**
@@ -19,10 +19,10 @@
 
 يرى[README.md](./200/README.md)
 
-## 300 – بناء تطبيقنا
+## 300 - Building Our Application
 
 يرى[README.md](./300/README.md)
 
 ## 400 - الخاتمة
 
-See [README.md](./400/README.md)
+يرى[README.md](./400/README.md)
