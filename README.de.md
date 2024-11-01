@@ -7,7 +7,7 @@ Repository-Name
 -   [Glossar](./GLOSSARY.md)
 -   [Referenzen](./REFERENCES.md)
 
-**Executive Summary**
+**Zusammenfassung**
 
 Text
 
@@ -19,10 +19,10 @@ Sehen[README.md](./100/README.md)
 
 Sehen[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 – Erstellen unserer Anwendung
 
 Sehen[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 – Fazit
 
-Sehen[README.md](./400/README.md)
+See [README.md](./400/README.md)
