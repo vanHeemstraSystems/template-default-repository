@@ -11,7 +11,7 @@
 
 文本
 
-## 100 - 简介
+## 100 - Introduction
 
 看[README.md](./100/README.md)
 
