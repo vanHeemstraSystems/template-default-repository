@@ -13,9 +13,9 @@
 
 ## 100 - 简介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
-## 200 - 要求
+## 200 - Requirements
 
 看[README.md](./200/README.md)
 
@@ -25,4 +25,4 @@
 
 ## 400 - 结论
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
