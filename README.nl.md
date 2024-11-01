@@ -7,7 +7,7 @@ repositorynaam
 -   [Glossarium](./GLOSSARY.md)
 -   [Referenties](./REFERENCES.md)
 
-**Samenvatting**
+**Executive Summary**
 
 Tekst
 
