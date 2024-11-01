@@ -2,7 +2,7 @@
 
 # भंडार का नाम
 
-> स्लगलाइन
+> Slugline
 
 -   [शब्दकोष](./GLOSSARY.md)
 -   [संदर्भ](./REFERENCES.md)
