@@ -7,7 +7,7 @@
 -   [词汇表](./GLOSSARY.md)
 -   [参考](./REFERENCES.md)
 
-**Executive Summary**
+**执行摘要**
 
 文本
 
@@ -19,9 +19,9 @@
 
 看[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - 构建我们的应用程序
 
-See [README.md](./300/README.md)
+看[README.md](./300/README.md)
 
 ## 400 - 结论
 
