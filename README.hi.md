@@ -4,7 +4,7 @@
 
 > स्लगलाइन
 
--   [Glossary](./GLOSSARY.md)
+-   [शब्दकोष](./GLOSSARY.md)
 -   [संदर्भ](./REFERENCES.md)
 
 **कार्यकारी सारांश**
