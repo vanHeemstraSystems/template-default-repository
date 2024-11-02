@@ -6,6 +6,7 @@ nom du référentiel
 
 -   [Glossaire](./GLOSSARY.md)
 -   [Références](./REFERENCES.md)
+-   [Documentation](./DOCUMENTATION.md)
 
 **Résumé exécutif**
 
