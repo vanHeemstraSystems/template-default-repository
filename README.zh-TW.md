@@ -2,7 +2,7 @@
 
 # 儲存庫名稱
 
-> Slugline
+> 斯拉格萊恩
 
 -   [詞彙表](./GLOSSARY.md)
 -   [參考](./REFERENCES.md)
@@ -12,9 +12,9 @@
 
 文字
 
-## 100 - Introduction
+## 100 - 簡介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
