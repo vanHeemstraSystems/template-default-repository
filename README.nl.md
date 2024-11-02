@@ -6,6 +6,7 @@ repositorynaam
 
 -   [Glossarium](./GLOSSARY.md)
 -   [Referenties](./REFERENCES.md)
+-   [Documentatie](./DOCUMENTATION.md)
 
 **Samenvatting**
 
