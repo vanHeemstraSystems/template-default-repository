@@ -10,7 +10,7 @@ repositorynaam
 
 **Samenvatting**
 
-Tekst
+Text
 
 ## 100 - Inleiding
 
