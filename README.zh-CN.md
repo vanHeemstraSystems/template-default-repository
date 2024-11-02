@@ -5,7 +5,7 @@
 > 斯拉格莱恩
 
 -   [词汇表](./GLOSSARY.md)
--   [参考](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [文档](./DOCUMENTATION.md)
 
 **执行摘要**
@@ -22,7 +22,7 @@
 
 ## 300 - 构建我们的应用程序
 
-See [README.md](./300/README.md)
+看[README.md](./300/README.md)
 
 ## 400 - 结论
 
