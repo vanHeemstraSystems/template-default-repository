@@ -6,12 +6,13 @@ Repository-Name
 
 -   [Glossar](./GLOSSARY.md)
 -   [Referenzen](./REFERENCES.md)
+-   [Dokumentation](./DOCUMENTATION.md)
 
 **Zusammenfassung**
 
 Text
 
-## 100 - Introduction
+## 100 - Einführung
 
 Sehen[README.md](./100/README.md)
 
