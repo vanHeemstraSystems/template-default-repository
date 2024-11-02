@@ -5,6 +5,7 @@ repository-name
 
 - [Glossary](./GLOSSARY.md)
 - [References](./REFERENCES.md)
+- [Documentation](./DOCUMENTATION.md)
 
 **Executive Summary**
 
