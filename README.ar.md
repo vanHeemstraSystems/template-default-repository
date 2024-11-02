@@ -6,8 +6,9 @@
 
 -   [مسرد](./GLOSSARY.md)
 -   [مراجع](./REFERENCES.md)
+-   [التوثيق](./DOCUMENTATION.md)
 
-**Executive Summary**
+**ملخص تنفيذي**
 
 نص
 
