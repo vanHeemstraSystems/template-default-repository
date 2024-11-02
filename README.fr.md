@@ -5,7 +5,7 @@ nom du référentiel
 > Slugline
 
 -   [Glossaire](./GLOSSARY.md)
--   [References](./REFERENCES.md)
+-   [Références](./REFERENCES.md)
 -   [Documentation](./DOCUMENTATION.md)
 
 **Résumé exécutif**
@@ -16,7 +16,7 @@ Text
 
 Voir[README.md](./100/README.md)
 
-## 200 - Exigences
+## 200 - Requirements
 
 Voir[README.md](./200/README.md)
 
