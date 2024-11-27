@@ -1,4 +1,4 @@
-repositorynaam
+repository-name
 
 # Naam van opslagplaats
 
@@ -7,10 +7,11 @@ repositorynaam
 -   [Glossarium](./GLOSSARY.md)
 -   [Referenties](./REFERENCES.md)
 -   [Documentatie](./DOCUMENTATION.md)
+-   [Telemetrie](./TELEMETRY.md)
 
 **Samenvatting**
 
-Text
+Tekst
 
 ## 100 - Inleiding
 
