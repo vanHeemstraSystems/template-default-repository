@@ -7,10 +7,11 @@
 -   [词汇表](./GLOSSARY.md)
 -   [参考](./REFERENCES.md)
 -   [文档](./DOCUMENTATION.md)
+-   [遥测](./TELEMETRY.md)
 
 **执行摘要**
 
-文本
+Text
 
 ## 100 - 简介
 
