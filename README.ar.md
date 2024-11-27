@@ -6,7 +6,7 @@
 
 -   [مسرد](./GLOSSARY.md)
 -   [مراجع](./REFERENCES.md)
--   [التوثيق](./DOCUMENTATION.md)
+-   [Documentation](./DOCUMENTATION.md)
 
 **ملخص تنفيذي**
 
@@ -16,7 +16,7 @@
 
 يرى[README.md](./100/README.md)
 
-## 200 - المتطلبات
+## 200 - Requirements
 
 يرى[README.md](./200/README.md)
 
@@ -26,4 +26,4 @@
 
 ## 400 - الخاتمة
 
-يرى[README.md](./400/README.md)
+See [README.md](./400/README.md)
