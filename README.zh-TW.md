@@ -1,19 +1,20 @@
-儲存庫名稱
+repository-name
 
 # 儲存庫名稱
 
-> Slugline
+> 斯拉格萊恩
 
+-   [Documentation](./DOCUMENTATION.md)
 -   [詞彙表](./GLOSSARY.md)
+-   [Images](./IMAGES.md)
 -   [參考](./REFERENCES.md)
--   [文件](./DOCUMENTATION.md)
 -   [遙測](./TELEMETRY.md)
 
 **執行摘要**
 
 文字
 
-## 100 - 簡介
+## 100 - Introduction
 
 看[README.md](./100/README.md)
 
