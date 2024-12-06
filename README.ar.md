@@ -4,12 +4,13 @@
 
 > سلوجلاين
 
--   [مسرد](./GLOSSARY.md)
--   [References](./REFERENCES.md)
 -   [التوثيق](./DOCUMENTATION.md)
+-   [Glossary](./GLOSSARY.md)
+-   [الصور](./IMAGES.md)
+-   [مراجع](./REFERENCES.md)
 -   [القياس عن بعد](./TELEMETRY.md)
 
-**ملخص تنفيذي**
+**Executive Summary**
 
 نص
 
