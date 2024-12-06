@@ -3,9 +3,10 @@ repository-name
 
 > Slugline
 
-- [Glossary](./GLOSSARY.md)
-- [References](./REFERENCES.md)
 - [Documentation](./DOCUMENTATION.md)
+- [Glossary](./GLOSSARY.md)
+- [Images](./IMAGES.md)
+- [References](./REFERENCES.md)
 - [Telemetry](./TELEMETRY.md)
 
 **Executive Summary**
