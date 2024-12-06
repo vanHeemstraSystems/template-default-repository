@@ -4,9 +4,10 @@ repositorynaam
 
 > Slaklijn
 
--   [Glossarium](./GLOSSARY.md)
--   [Referenties](./REFERENCES.md)
 -   [Documentatie](./DOCUMENTATION.md)
+-   [Glossarium](./GLOSSARY.md)
+-   [Afbeeldingen](./IMAGES.md)
+-   [Referenties](./REFERENCES.md)
 -   [Telemetrie](./TELEMETRY.md)
 
 **Samenvatting**
