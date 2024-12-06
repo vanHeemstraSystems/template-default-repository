@@ -1,17 +1,18 @@
-repository-name
+nombre-repositorio
 
 # Nombre del repositorio
 
 > línea de bala
 
--   [Glosario](./GLOSSARY.md)
--   [Referencias](./REFERENCES.md)
 -   [Documentación](./DOCUMENTATION.md)
+-   [Glosario](./GLOSSARY.md)
+-   [Imágenes](./IMAGES.md)
+-   [References](./REFERENCES.md)
 -   [Telemetria](./TELEMETRY.md)
 
-**Resumen ejecutivo**
+**Executive Summary**
 
-Texto
+Text
 
 ## 100 - Introducción
 
@@ -27,4 +28,4 @@ Ver[README.md](./300/README.md)
 
 ## 400 - Conclusión
 
-Ver[README.md](./400/README.md)
+See [README.md](./400/README.md)
