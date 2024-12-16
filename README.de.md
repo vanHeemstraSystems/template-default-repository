@@ -6,7 +6,7 @@ Repository-Name
 
 -   [Dokumentation](./DOCUMENTATION.md)
 -   [Glossar](./GLOSSARY.md)
--   [Images](./IMAGES.md)
+-   [Bilder](./IMAGES.md)
 -   [Referenzen](./REFERENCES.md)
 -   [Telemetrie](./TELEMETRY.md)
 
@@ -20,7 +20,7 @@ Sehen[README.md](./100/README.md)
 
 ## 200 – Anforderungen
 
-See [README.md](./200/README.md)
+Sehen[README.md](./200/README.md)
 
 ## 300 – Erstellen unserer Anwendung
 
