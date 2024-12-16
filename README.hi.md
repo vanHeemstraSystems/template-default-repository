@@ -4,11 +4,11 @@
 
 > स्लगलाइन
 
--   [Documentation](./DOCUMENTATION.md)
+-   [प्रलेखन](./DOCUMENTATION.md)
 -   [शब्दकोष](./GLOSSARY.md)
 -   [इमेजिस](./IMAGES.md)
 -   [संदर्भ](./REFERENCES.md)
--   [Telemetry](./TELEMETRY.md)
+-   [टेलीमेटरी](./TELEMETRY.md)
 
 **कार्यकारी सारांश**
 
@@ -20,7 +20,7 @@
 
 ## 200 - आवश्यकताएँ
 
-See [README.md](./200/README.md)
+देखना[README.md](./200/README.md)
 
 ## 300 - हमारे एप्लिकेशन का निर्माण
 
