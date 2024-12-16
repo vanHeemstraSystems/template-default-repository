@@ -6,7 +6,7 @@
 
 -   [文档](./DOCUMENTATION.md)
 -   [词汇表](./GLOSSARY.md)
--   [Images](./IMAGES.md)
+-   [图片](./IMAGES.md)
 -   [参考](./REFERENCES.md)
 -   [遥测](./TELEMETRY.md)
 
