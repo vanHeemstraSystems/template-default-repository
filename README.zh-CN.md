@@ -10,7 +10,7 @@
 -   [参考](./REFERENCES.md)
 -   [遥测](./TELEMETRY.md)
 
-**Executive Summary**
+**执行摘要**
 
 文本
 
@@ -22,7 +22,7 @@
 
 看[README.md](./200/README.md)
 
-## 300 - 构建我们的应用程序
+## 300 - Building Our Application
 
 看[README.md](./300/README.md)
 
