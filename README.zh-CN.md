@@ -10,7 +10,7 @@
 -   [参考](./REFERENCES.md)
 -   [遥测](./TELEMETRY.md)
 
-**执行摘要**
+**Executive Summary**
 
 文本
 
