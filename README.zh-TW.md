@@ -10,11 +10,11 @@
 -   [參考](./REFERENCES.md)
 -   [遙測](./TELEMETRY.md)
 
-**執行摘要**
+**Executive Summary**
 
 文字
 
-## 100 - 簡介
+## 100 - Introduction
 
 看[README.md](./100/README.md)
 
