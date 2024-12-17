@@ -4,7 +4,7 @@ Repository-Name
 
 > Slugline
 
--   [Dokumentation](./DOCUMENTATION.md)
+-   [Documentation](./DOCUMENTATION.md)
 -   [Glossar](./GLOSSARY.md)
 -   [Bilder](./IMAGES.md)
 -   [Referenzen](./REFERENCES.md)
