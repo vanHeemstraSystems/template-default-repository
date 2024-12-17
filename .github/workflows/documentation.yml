@@ -6,45 +6,31 @@ on:
     branches:
       - main
       - master
+
 jobs:
-  build:
+  translate:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language:
+          - { code: zh-CN, name: Chinese Simplified }
+          - { code: zh-TW, name: Chinese Traditional }
+          - { code: hi, name: Hindi }
+          - { code: ar, name: Arabic }
+          - { code: fr, name: French }
+          - { code: en, name: English }
+          - { code: de, name: German }
+          - { code: nl, name: Dutch }
+          - { code: es, name: Spanish }
+    
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 12.x
-      # ISO Language Codes: https://cloud.google.com/translate/docs/languages  
-      - name: Adding DOCUMENTATION - Chinese Simplified
-        uses: dephraiim/translate-readme@main
+          node-version: 20.x  # Updated to a more recent LTS version
+      
+      - name: Adding DOCUMENTATION - ${{ matrix.language.name }}
+        uses: vanHeemstraSystems/translate-documentation@main
         with:
-          LANG: zh-CN
-      - name: Adding DOCUMENTATION - Chinese Traditional
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: zh-TW
-      - name: Adding DOCUMENTATION - Hindi
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: hi
-      - name: Adding DOCUMENTATION - Arabic
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: ar
-      - name: Adding DOCUMENTATION - French
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: fr
-      - name: Adding DOCUMENTATION - German
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: de
-      - name: Adding DOCUMENTATION - Dutch
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: nl
-      - name: Adding DOCUMENTATION - Spanish
-        uses: dephraiim/translate-readme@main
-        with:
-          LANG: es
+          LANG: ${{ matrix.language.code }}
