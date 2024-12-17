@@ -12,7 +12,7 @@ nombre-repositorio
 
 **Resumen ejecutivo**
 
-Texto
+Text
 
 ## 100 - Introducción
 
