@@ -7,6 +7,7 @@ repositorynaam
 -   [Documentatie](./DOCUMENTATION.md)
 -   [Glossarium](./GLOSSARY.md)
 -   [Afbeeldingen](./IMAGES.md)
+-   [Ingetogen](./PODMAN.md)
 -   [Referenties](./REFERENCES.md)
 -   [Telemetrie](./TELEMETRY.md)
 
@@ -18,7 +19,7 @@ Tekst
 
 Zien[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - Vereisten
 
 Zien[README.md](./200/README.md)
 
