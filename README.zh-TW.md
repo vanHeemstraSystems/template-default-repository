@@ -1,4 +1,4 @@
-repository-name
+儲存庫名稱
 
 # 儲存庫名稱
 
@@ -15,6 +15,8 @@ repository-name
 **執行摘要**
 
 文字
+
+生成於[里特爾](app.rytr.me)
 
 ## 100 - 簡介
 
