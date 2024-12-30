@@ -1,9 +1,10 @@
-儲存庫名稱
+repository-name
 
 # 儲存庫名稱
 
 > 斯拉格萊恩
 
+-   [域名系統](./DNS.md)
 -   [文件](./DOCUMENTATION.md)
 -   [詞彙表](./GLOSSARY.md)
 -   [圖片](./IMAGES.md)
