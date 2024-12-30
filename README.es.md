@@ -4,6 +4,7 @@ nombre-repositorio
 
 > línea de bala
 
+-   [DNS](./DNS.md)
 -   [Documentación](./DOCUMENTATION.md)
 -   [Glosario](./GLOSSARY.md)
 -   [Imágenes](./IMAGES.md)
@@ -23,7 +24,7 @@ Ver[README.md](./100/README.md)
 
 Ver[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - Construyendo nuestra aplicación
 
 Ver[README.md](./300/README.md)
 
