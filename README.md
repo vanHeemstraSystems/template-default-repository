@@ -15,6 +15,8 @@ repository-name
 
 Text
 
+Generated with [Rytr](app.rytr.me)
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
