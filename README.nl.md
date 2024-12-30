@@ -4,6 +4,7 @@ repositorynaam
 
 > Slaklijn
 
+-   [DNS](./DNS.md)
 -   [Documentatie](./DOCUMENTATION.md)
 -   [Glossarium](./GLOSSARY.md)
 -   [Afbeeldingen](./IMAGES.md)
