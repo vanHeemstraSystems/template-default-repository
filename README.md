@@ -15,7 +15,7 @@ repository-name
 
 Text
 
-Generated with [Rytr](app.rytr.me)
+Generated with [Rytr](https://app.rytr.me)
 
 ## 100 - Introduction
 
