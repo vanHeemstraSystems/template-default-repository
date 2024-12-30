@@ -7,14 +7,16 @@
 -   [域名系统](./DNS.md)
 -   [文档](./DOCUMENTATION.md)
 -   [词汇表](./GLOSSARY.md)
--   [图片](./IMAGES.md)
--   [柔和的](./PODMAN.md)
--   [参考](./REFERENCES.md)
--   [遥测](./TELEMETRY.md)
+-   [Images](./IMAGES.md)
+-   [Podman](./PODMAN.md)
+-   [References](./REFERENCES.md)
+-   [Telemetry](./TELEMETRY.md)
 
 **执行摘要**
 
 文本
+
+生成于[里特尔](app.rytr.me)
 
 ## 100 - 简介
 
