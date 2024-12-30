@@ -9,24 +9,26 @@ Repository-Name
 -   [Glossar](./GLOSSARY.md)
 -   [Bilder](./IMAGES.md)
 -   [Gedämpft](./PODMAN.md)
--   [References](./REFERENCES.md)
+-   [Referenzen](./REFERENCES.md)
 -   [Telemetrie](./TELEMETRY.md)
 
 **Zusammenfassung**
 
 Text
 
-## 100 - Introduction
+Erstellt mit[Ritr](https://app.rytr.me)
+
+## 100 - Einführung
 
 Sehen[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 – Anforderungen
 
 Sehen[README.md](./200/README.md)
 
 ## 300 – Erstellen unserer Anwendung
 
-See [README.md](./300/README.md)
+Sehen[README.md](./300/README.md)
 
 ## 400 – Fazit
 
