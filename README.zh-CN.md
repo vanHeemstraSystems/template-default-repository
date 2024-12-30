@@ -1,27 +1,27 @@
-存储库名称
+repository-name
 
 # 存储库名称
 
 > 斯拉格莱恩
 
 -   [文档](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
+-   [词汇表](./GLOSSARY.md)
 -   [图片](./IMAGES.md)
 -   [柔和的](./PODMAN.md)
--   [参考](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [遥测](./TELEMETRY.md)
 
 **执行摘要**
 
-Text
+文本
 
 ## 100 - 简介
 
 看[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - 要求
 
-See [README.md](./200/README.md)
+看[README.md](./200/README.md)
 
 ## 300 - 构建我们的应用程序
 
