@@ -7,8 +7,9 @@
 -   [域名系統](./DNS.md)
 -   [文件](./DOCUMENTATION.md)
 -   [詞彙表](./GLOSSARY.md)
+-   [主辦單位](./HOSTS.md)
 -   [圖片](./IMAGES.md)
--   [柔和的](./PODMAN.md)
+-   [Podman](./PODMAN.md)
 -   [參考](./REFERENCES.md)
 -   [遙測](./TELEMETRY.md)
 
@@ -30,6 +31,6 @@
 
 看[README.md](./300/README.md)
 
-## 400 - 結論
+## 400 - Conclusion
 
 看[README.md](./400/README.md)
