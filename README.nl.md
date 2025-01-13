@@ -1,4 +1,4 @@
-repositorynaam
+repository-name
 
 # Naam van opslagplaats
 
@@ -7,17 +7,17 @@ repositorynaam
 -   [DNS](./DNS.md)
 -   [Documentatie](./DOCUMENTATION.md)
 -   [Glossarium](./GLOSSARY.md)
--   [Gastheren](./HOSTS.md)
+-   [Hosts](./HOSTS.md)
 -   [Afbeeldingen](./IMAGES.md)
 -   [Ingetogen](./PODMAN.md)
 -   [Referenties](./REFERENCES.md)
 -   [Telemetrie](./TELEMETRY.md)
 
-**Samenvatting**
+**Executive Summary**
 
 Tekst
 
-Gegenereerd met[Ritr](https://app.rytr.me)
+Gegenereerd met[Rytr](https://app.rytr.me)
 
 ## 100 - Inleiding
 
