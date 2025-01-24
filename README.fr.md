@@ -1,4 +1,4 @@
-nom de référentiel
+nom du référentiel
 
 # Nom du référentiel
 
@@ -11,9 +11,10 @@ nom de référentiel
 -   [Images](./IMAGES.md)
 -   [Sous-homme](./PODMAN.md)
 -   [Références](./REFERENCES.md)
+-   [Exigences](./REQUIREMENTS.md)
 -   [Télémétrie](./TELEMETRY.md)
 
-**Executive Summary**
+**Résumé exécutif**
 
 Texte
 
@@ -23,7 +24,7 @@ Généré avec[Ritr](https://app.rytr.me)
 
 Voir[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - exigences
 
 Voir[README.md](./200/README.md)
 
