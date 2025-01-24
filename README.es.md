@@ -1,17 +1,18 @@
-nombre-repositorio
+repository-name
 
-# Nombre del repositorio
+# Nombre de repositorio
 
-> línea de bala
+> Línea de babosa
 
 -   [DNS](./DNS.md)
 -   [Documentación](./DOCUMENTATION.md)
 -   [Glosario](./GLOSSARY.md)
 -   [Anfitriones](./HOSTS.md)
 -   [Imágenes](./IMAGES.md)
--   [Suave](./PODMAN.md)
+-   [Submario](./PODMAN.md)
 -   [Referencias](./REFERENCES.md)
--   [Telemetria](./TELEMETRY.md)
+-   [Requisitos](./REQUIREMENTS.md)
+-   [Telemetría](./TELEMETRY.md)
 
 **Resumen ejecutivo**
 
@@ -33,4 +34,4 @@ Ver[README.md](./300/README.md)
 
 ## 400 - Conclusión
 
-See [README.md](./400/README.md)
+Ver[README.md](./400/README.md)
