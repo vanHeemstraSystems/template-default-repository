@@ -1,23 +1,24 @@
-repository-name
+repository-naam
 
-# Naam van opslagplaats
+# Repository -naam
 
-> Slaklijn
+> Sluglijn
 
 -   [DNS](./DNS.md)
--   [Documentatie](./DOCUMENTATION.md)
+-   [Documentation](./DOCUMENTATION.md)
 -   [Glossarium](./GLOSSARY.md)
--   [Hosts](./HOSTS.md)
--   [Afbeeldingen](./IMAGES.md)
--   [Ingetogen](./PODMAN.md)
+-   [Gastheren](./HOSTS.md)
+-   [Beelden](./IMAGES.md)
+-   [Subman](./PODMAN.md)
 -   [Referenties](./REFERENCES.md)
+-   [Vereisten](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
-**Executive Summary**
+**Uitvoerende samenvatting**
 
 Tekst
 
-Gegenereerd met[Rytr](https://app.rytr.me)
+Gegenereerd met[Ritr](https://app.rytr.me)
 
 ## 100 - Inleiding
 
@@ -27,7 +28,7 @@ Zien[README.md](./100/README.md)
 
 Zien[README.md](./200/README.md)
 
-## 300 - Onze applicatie bouwen
+## 300 - onze applicatie bouwen
 
 Zien[README.md](./300/README.md)
 
