@@ -1,15 +1,15 @@
-儲存庫名稱
+repository-name
 
-# 儲存庫名稱
+# 存儲庫名稱
 
-> 斯拉格萊恩
+> 板條
 
 -   [域名系統](./DNS.md)
 -   [文件](./DOCUMENTATION.md)
 -   [詞彙表](./GLOSSARY.md)
 -   [主辦單位](./HOSTS.md)
 -   [圖片](./IMAGES.md)
--   [柔和的](./PODMAN.md)
+-   [Subman](./PODMAN.md)
 -   [參考](./REFERENCES.md)
 -   [遙測](./TELEMETRY.md)
 
@@ -17,9 +17,9 @@
 
 文字
 
-生成於[里特爾](https://app.rytr.me)
+生成[里特爾](https://app.rytr.me)
 
-## 100 - 簡介
+## 100-簡介
 
 看[README.md](./100/README.md)
 
