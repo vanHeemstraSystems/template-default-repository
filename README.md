@@ -6,6 +6,7 @@ repository-name
 - [DNS](./DNS.md)
 - [Documentation](./DOCUMENTATION.md)
 - [Glossary](./GLOSSARY.md)
+- [Hatch](./HATCH.md)
 - [Hosts](./HOSTS.md)
 - [Images](./IMAGES.md)
 - [Podman](./PODMAN.md)
