@@ -18,9 +18,9 @@ repository-name
 
 文字
 
-生成[ritr](https://app.rytr.me)
+Generated with [Rytr](https://app.rytr.me)
 
-## 100 - Introduction
+## 100-簡介
 
 看[README.md](./100/README.md)
 
