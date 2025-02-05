@@ -6,7 +6,7 @@ nom de référentiel
 
 -   [DNS](./DNS.md)
 -   [Documentation](./DOCUMENTATION.md)
--   [Glossaire](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [Trappe](./HATCH.md)
 -   [Hôtes](./HOSTS.md)
 -   [Images](./IMAGES.md)
@@ -19,7 +19,7 @@ nom de référentiel
 
 Texte
 
-Généré avec[Ritr](https://app.rytr.me)
+Generated with [Rytr](https://app.rytr.me)
 
 ## 100 - Introduction
 
