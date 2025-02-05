@@ -12,12 +12,12 @@
 -   [Images](./IMAGES.md)
 -   [رجل فرعي](./PODMAN.md)
 -   [مراجع](./REFERENCES.md)
--   [متطلبات](./REQUIREMENTS.md)
+-   [Requirements](./REQUIREMENTS.md)
 -   [القياس عن بعد](./TELEMETRY.md)
 
 **ملخص تنفيذي**
 
-نص
+Text
 
 ولدت مع[ريتر](https://app.rytr.me)
 
@@ -29,10 +29,10 @@
 
 يرى[README.md](./200/README.md)
 
-## 300 - بناء تطبيقنا
+## 300 - Building Our Application
 
 يرى[README.md](./300/README.md)
 
-## 400 - الخلاصة
+## 400 - Conclusion
 
-See [README.md](./400/README.md)
+يرى[README.md](./400/README.md)
