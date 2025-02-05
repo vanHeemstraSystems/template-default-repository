@@ -5,9 +5,9 @@ repository-name
 > 板條
 
 -   [DNS](./DNS.md)
--   [Documentation](./DOCUMENTATION.md)
+-   [文件](./DOCUMENTATION.md)
 -   [詞彙表](./GLOSSARY.md)
--   [主持人](./HOSTS.md)
+-   [Hosts](./HOSTS.md)
 -   [圖像](./IMAGES.md)
 -   [Subman](./PODMAN.md)
 -   [參考](./REFERENCES.md)
@@ -16,7 +16,7 @@ repository-name
 
 **執行摘要**
 
-Text
+文字
 
 生成[ritr](https://app.rytr.me)
 
