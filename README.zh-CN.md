@@ -1,13 +1,13 @@
 repository-name
 
-# Repository Name
+# 存储库名称
 
 > 板条
 
 -   [DNS](./DNS.md)
 -   [文档](./DOCUMENTATION.md)
 -   [词汇表](./GLOSSARY.md)
--   [主持人](./HOSTS.md)
+-   [Hosts](./HOSTS.md)
 -   [图像](./IMAGES.md)
 -   [Subman](./PODMAN.md)
 -   [参考](./REFERENCES.md)
@@ -20,7 +20,7 @@ repository-name
 
 生成[ritr](https://app.rytr.me)
 
-## 100 - Introduction
+## 100-简介
 
 看[README.md](./100/README.md)
 
