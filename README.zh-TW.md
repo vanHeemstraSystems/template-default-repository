@@ -8,11 +8,11 @@ repository-name
 -   [文件](./DOCUMENTATION.md)
 -   [詞彙表](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
--   [Hosts](./HOSTS.md)
+-   [主持人](./HOSTS.md)
 -   [圖像](./IMAGES.md)
--   [Podman](./PODMAN.md)
+-   [Subman](./PODMAN.md)
 -   [參考](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [要求](./REQUIREMENTS.md)
 -   [遙測](./TELEMETRY.md)
 
 **Executive Summary**
@@ -21,13 +21,13 @@ repository-name
 
 生成[ritr](https://app.rytr.me)
 
-## 100 - Introduction
+## 100-簡介
 
 看[README.md](./100/README.md)
 
 ## 200-要求
 
-看[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300-構建我們的應用程序
 
