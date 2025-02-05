@@ -6,10 +6,10 @@ Repository-Namen
 
 -   [DNS](./DNS.md)
 -   [Dokumentation](./DOCUMENTATION.md)
--   [Glossar](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [Luke](./HATCH.md)
 -   [Gastgeber](./HOSTS.md)
--   [Images](./IMAGES.md)
+-   [Bilder](./IMAGES.md)
 -   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
 -   [Anforderungen](./REQUIREMENTS.md)
