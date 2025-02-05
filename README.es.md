@@ -11,12 +11,12 @@ repositorio
 -   [Imágenes](./IMAGES.md)
 -   [Submario](./PODMAN.md)
 -   [Referencias](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [Requisitos](./REQUIREMENTS.md)
 -   [Telemetría](./TELEMETRY.md)
 
 **Resumen ejecutivo**
 
-Text
+Texto
 
 Generado con[Ritro](https://app.rytr.me)
 
