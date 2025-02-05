@@ -10,8 +10,8 @@ nom de référentiel
 -   [Hôtes](./HOSTS.md)
 -   [Images](./IMAGES.md)
 -   [Sous-homme](./PODMAN.md)
--   [Références](./REFERENCES.md)
--   [Exigences](./REQUIREMENTS.md)
+-   [References](./REFERENCES.md)
+-   [Requirements](./REQUIREMENTS.md)
 -   [Télémétrie](./TELEMETRY.md)
 
 **Résumé exécutif**
@@ -30,8 +30,8 @@ Voir[README.md](./200/README.md)
 
 ## 300 - Construire notre application
 
-Voir[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - Conclusion
 
-Voir[README.md](./400/README.md)
+See [README.md](./400/README.md)
