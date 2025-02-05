@@ -2,17 +2,17 @@ repository-name
 
 # 存储库名称
 
-> 板条
+> Slugline
 
 -   [DNS](./DNS.md)
 -   [文档](./DOCUMENTATION.md)
 -   [词汇表](./GLOSSARY.md)
--   [孵化](./HATCH.md)
+-   [Hatch](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [图像](./IMAGES.md)
 -   [Subman](./PODMAN.md)
 -   [参考](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [要求](./REQUIREMENTS.md)
 -   [遥测](./TELEMETRY.md)
 
 **执行摘要**
