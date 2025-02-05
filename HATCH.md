@@ -8,7 +8,7 @@ When you create any Python application, you have to create a folder structure fo
 
 To create a new project, all you have to do is run the ```hatch new <project name>``` command. This command creates a project directory containing a source code directory (```src```), a test directory (```tests```), and a configuration file for project-related tools (```pyproject.toml```).
 
-For this tutorial, let’s create a simple Python application named hatch-project that uses a Flask API. To do so, run ```$ hatch new "Hatch Project"```. The folder structure that’s created will look like this:
+For this tutorial, let’s create a simple Python application named hatch-project that uses a Flask API. To do so, **FROM THE ROOT OF THE REPOSITORY** run ```$ hatch new "Hatch Project"```. The folder structure that’s created will look like this:
 
 ```
 $ hatch new "Hatch Project"
