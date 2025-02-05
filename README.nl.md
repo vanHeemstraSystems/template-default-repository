@@ -7,7 +7,7 @@ repository-naam
 -   [DNS](./DNS.md)
 -   [Documentatie](./DOCUMENTATION.md)
 -   [Glossarium](./GLOSSARY.md)
--   [Hatch](./HATCH.md)
+-   [Klep](./HATCH.md)
 -   [Gastheren](./HOSTS.md)
 -   [Beelden](./IMAGES.md)
 -   [Subman](./PODMAN.md)
