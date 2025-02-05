@@ -5,14 +5,14 @@ repository-name
 > 板条
 
 -   [DNS](./DNS.md)
--   [Documentation](./DOCUMENTATION.md)
+-   [文档](./DOCUMENTATION.md)
 -   [词汇表](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [图像](./IMAGES.md)
 -   [Subman](./PODMAN.md)
 -   [参考](./REFERENCES.md)
--   [要求](./REQUIREMENTS.md)
+-   [Requirements](./REQUIREMENTS.md)
 -   [遥测](./TELEMETRY.md)
 
 **执行摘要**
@@ -31,8 +31,8 @@ repository-name
 
 ## 300-构建我们的应用程序
 
-See [README.md](./300/README.md)
+看[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400-结论
 
 看[README.md](./400/README.md)
