@@ -1,4 +1,4 @@
-भंडार-नाम
+repository-name
 
 # भंडार नाम
 
@@ -17,9 +17,9 @@
 
 **कार्यकारी सारांश**
 
-मूलपाठ
+Text
 
-के साथ उत्पन्न[रिट्र](https://app.rytr.me)
+Generated with [Rytr](https://app.rytr.me)
 
 ## 100 - परिचय
 
