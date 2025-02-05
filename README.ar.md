@@ -7,6 +7,7 @@
 -   [DNS](./DNS.md)
 -   [الوثائق](./DOCUMENTATION.md)
 -   [مسرد](./GLOSSARY.md)
+-   [Hatch](./HATCH.md)
 -   [المضيفين](./HOSTS.md)
 -   [الصور](./IMAGES.md)
 -   [رجل فرعي](./PODMAN.md)
