@@ -7,10 +7,10 @@ repository-naam
 -   [DNS](./DNS.md)
 -   [Documentatie](./DOCUMENTATION.md)
 -   [Glossarium](./GLOSSARY.md)
--   [Gastheren](./HOSTS.md)
+-   [Hosts](./HOSTS.md)
 -   [Beelden](./IMAGES.md)
 -   [Subman](./PODMAN.md)
--   [Referenties](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [Vereisten](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
@@ -24,13 +24,13 @@ Gegenereerd met[Ritr](https://app.rytr.me)
 
 Zien[README.md](./100/README.md)
 
-## 200 - Vereisten
+## 200 - Requirements
 
 Zien[README.md](./200/README.md)
 
 ## 300 - onze applicatie bouwen
 
-Zien[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - Conclusie
 
