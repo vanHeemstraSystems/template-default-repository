@@ -1,5 +1,7 @@
 # 300 - Creating a New React Monorepo
 
+**Warning**: Make sure you have installed and created the directory structure of ```hatch``` already. See [HATCH.md](../../HATCH.md)
+
 Create a new React monorepo with the following command:
 
 ```
