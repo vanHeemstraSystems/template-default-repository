@@ -18,7 +18,7 @@ create-nx-workspace@20.4.0
 Ok to proceed? (y)
 ```
 
-Click y & ENTER
+Click y & ENTER.
 
 ```
 NX   Let's create a new workspace [https://nx.dev/getting-started/intro]
@@ -130,5 +130,3 @@ This will generate the following file and directory structure underneath the ```
 **Important**: Move all files previously in ```original_hatch_project``` to ```hatch_project``` and delete ```original_hatch_project```!
 
 Finish the CI setup by visiting: https://cloud.nx.app/connect/lvaFjW0bDV # **Note**: the URL will differ per creation. See [Enable GitHub PR Integration](https://nx.dev/ci/recipes/source-control-integration/github) and/or watch [PNPM-CI: Connect Your Workspace to Nx Cloud for Enhanced Collaboration](https://www.youtube.com/watch?v=8mqHXYIl_qI).
-
-MORE ...
