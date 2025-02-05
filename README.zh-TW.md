@@ -18,7 +18,7 @@ repository-name
 
 文字
 
-生成[ritr](https://app.rytr.me)
+Generated with [ritr](https://app.rytr.me)
 
 ## 100-簡介
 
