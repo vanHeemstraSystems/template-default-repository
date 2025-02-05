@@ -12,7 +12,7 @@ nom de référentiel
 -   [Sous-homme](./PODMAN.md)
 -   [Références](./REFERENCES.md)
 -   [Exigences](./REQUIREMENTS.md)
--   [Télémétrie](./TELEMETRY.md)
+-   [Telemetry](./TELEMETRY.md)
 
 **Résumé exécutif**
 
@@ -34,4 +34,4 @@ Voir[README.md](./300/README.md)
 
 ## 400 - Conclusion
 
-Voir[README.md](./400/README.md)
+See [README.md](./400/README.md)
