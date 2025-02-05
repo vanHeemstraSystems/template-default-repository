@@ -9,15 +9,15 @@
 -   [مسرد](./GLOSSARY.md)
 -   [فتحة](./HATCH.md)
 -   [المضيفين](./HOSTS.md)
--   [Images](./IMAGES.md)
+-   [الصور](./IMAGES.md)
 -   [رجل فرعي](./PODMAN.md)
 -   [مراجع](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
--   [القياس عن بعد](./TELEMETRY.md)
+-   [متطلبات](./REQUIREMENTS.md)
+-   [Telemetry](./TELEMETRY.md)
 
 **ملخص تنفيذي**
 
-Text
+نص
 
 ولدت مع[ريتر](https://app.rytr.me)
 
@@ -29,10 +29,10 @@ Text
 
 يرى[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - بناء تطبيقنا
 
 يرى[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - الخلاصة
 
 يرى[README.md](./400/README.md)
