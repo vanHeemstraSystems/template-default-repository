@@ -12,7 +12,7 @@ repository-name
 -   [Subman](./PODMAN.md)
 -   [参考](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
--   [遥测](./TELEMETRY.md)
+-   [Telemetry](./TELEMETRY.md)
 
 **执行摘要**
 
@@ -32,6 +32,6 @@ repository-name
 
 看[README.md](./300/README.md)
 
-## 400-结论
+## 400 - Conclusion
 
 看[README.md](./400/README.md)
