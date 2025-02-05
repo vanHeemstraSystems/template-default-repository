@@ -6,7 +6,7 @@ repositorio
 
 -   [DNS](./DNS.md)
 -   [Documentación](./DOCUMENTATION.md)
--   [Glosario](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [Anfitriones](./HOSTS.md)
 -   [Imágenes](./IMAGES.md)
 -   [Submario](./PODMAN.md)
@@ -16,7 +16,7 @@ repositorio
 
 **Resumen ejecutivo**
 
-Text
+Texto
 
 Generado con[Ritro](https://app.rytr.me)
 
@@ -30,7 +30,7 @@ Ver[README.md](./200/README.md)
 
 ## 300 - Construyendo nuestra aplicación
 
-Ver[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - Conclusión
 
