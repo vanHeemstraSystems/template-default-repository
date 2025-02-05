@@ -1,4 +1,4 @@
-repository-name
+Repository-Namen
 
 # Repository -Name
 
@@ -6,10 +6,10 @@ repository-name
 
 -   [DNS](./DNS.md)
 -   [Dokumentation](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
--   [Hosts](./HOSTS.md)
+-   [Glossar](./GLOSSARY.md)
+-   [Gastgeber](./HOSTS.md)
 -   [Bilder](./IMAGES.md)
--   [Podman](./PODMAN.md)
+-   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
 -   [Anforderungen](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
@@ -18,7 +18,7 @@ repository-name
 
 Text
 
-Erzeugt mit[Ritr](https://app.rytr.me)
+Erzeugt mit[Rytr](https://app.rytr.me)
 
 ## 100 - Einführung
 
@@ -30,7 +30,7 @@ Sehen[README.md](./200/README.md)
 
 ## 300 - Aufbau unserer Bewerbung
 
-See [README.md](./300/README.md)
+Sehen[README.md](./300/README.md)
 
 ## 400 - Schlussfolgerung
 
