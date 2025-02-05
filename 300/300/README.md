@@ -129,4 +129,6 @@ This will generate the following file and directory structure underneath the ```
 
 **Important**: Move all files previously in ```original_hatch_project``` to ```hatch_project``` and delete ```original_hatch_project```!
 
+Finish the CI setup by visiting: https://cloud.nx.app/connect/lvaFjW0bDV # **Note**: the URL will differ per creation.
+
 MORE ...
