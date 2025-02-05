@@ -18,8 +18,12 @@ What will you learn?
 
 See [README.md](./100/README.md)
 
-## 200 - Video and example of final code
+## 200 - Video and Example of Final Code
 
 See [README.md](./200/README.md)
+
+## 300 - Creating a New React Monorepo
+
+See [README.md](./300/README.md)
 
 MORE ...
