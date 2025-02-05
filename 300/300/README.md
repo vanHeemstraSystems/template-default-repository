@@ -115,6 +115,6 @@ This will generate the following file and directory structure underneath the ```
    └─ package.json
 ```
 
-**Important**: Move all files previously in ```original_hatch_project`` to ```hatch_project``` and delete ```original_hatch_project```!
+**Important**: Move all files previously in ```original_hatch_project``` to ```hatch_project``` and delete ```original_hatch_project```!
 
 MORE ...
