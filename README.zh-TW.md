@@ -10,7 +10,7 @@ repository-name
 -   [主持人](./HOSTS.md)
 -   [圖像](./IMAGES.md)
 -   [Subman](./PODMAN.md)
--   [References](./REFERENCES.md)
+-   [參考](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
 -   [遙測](./TELEMETRY.md)
 
