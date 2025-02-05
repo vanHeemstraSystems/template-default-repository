@@ -14,7 +14,7 @@ repository-naam
 -   [Vereisten](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
-**Executive Summary**
+**Uitvoerende samenvatting**
 
 Tekst
 
