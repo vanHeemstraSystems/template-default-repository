@@ -79,9 +79,21 @@ It will respond with:
 NX Creating your v20.4.0 workspace.
 
 Installing dependencies with npm
-Creating your workspace in hatch_project
+Successfully created the workspace: hatch_project
+Nx Cloud has been set up successfully
+CI workflow has been generated successfully
 
+NX Directory is already under version control. Skipping initialization of git.
 
+NX   Your CI setup is almost complete.
+
+Finish it by visiting: https://cloud.nx.app/connect/lvaFjW0bDV
+
+NX   Welcome to the Nx community! 👋
+
+🌟 Star Nx on GitHub: https://github.com/nrwl/nx
+📢 Stay up to date on X: https://x.com/nxdevtools
+💬 Discuss Nx on Discord: https://go.nx.dev/community
 ```
 
 This will generate the following file and directory structure underneath the ```src``` directory (Note: ```hatch_project``` uses that same directory as previously created by Hatch. **This is intentional!**):
