@@ -1,6 +1,6 @@
-nom du référentiel
+nom de référentiel
 
-# Nom du référentiel
+# Nom de référentiel
 
 > Slugline
 
@@ -14,7 +14,7 @@ nom du référentiel
 -   [Exigences](./REQUIREMENTS.md)
 -   [Télémétrie](./TELEMETRY.md)
 
-**Résumé exécutif**
+**Executive Summary**
 
 Texte
 
