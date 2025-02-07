@@ -199,13 +199,13 @@ This structure should allow Nx Cloud to detect the workspace properly.
 Run the command to **connect** your workspace to Nx Cloud from the root directory of the `hatch-project`, specifically:
 
 ```
-default-template-demo/hatch-project/
+$ cd /hatch-project/
 ```
 
 The command to connect to Nx Cloud is:
 
 ```
-nx connect-to-nx-cloud
+$ nx connect-to-nx-cloud
 ```
 
 This will initiate the configuration process for Nx Cloud within your workspace.
