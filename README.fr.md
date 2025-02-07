@@ -1,4 +1,4 @@
-repository-name
+nom de référentiel
 
 # Nom de référentiel
 
@@ -26,7 +26,7 @@ Généré avec[Ritr](https://app.rytr.me)
 
 Voir[README.md](./100/README.md)
 
-## 200 - exigences
+## 200 - Requirements
 
 Voir[README.md](./200/README.md)
 
