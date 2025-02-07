@@ -138,20 +138,9 @@ This will generate the following file and directory structure underneath the ```
 - **`hatch_project/tsconfig.json`**: TypeScript configuration for the project.
 - **`hatch_project/workspace.json` or `project.json`**: Defines the structure and projects within the workspace.
 
-**IMPORTANT**: Move **nx.json** to ```hatch-project``` directory so it can connect with Nx Cloud.
-
-```
-└─ hatch-project
-               ├─ ...
-               ├─ nx.json
-               └─ src
-                    └─ hatch_project
-                                   ├─ ...               
-```
-
 **IMPORTANT**: Modify **nx.json** so it can connect with Nx Cloud.
 
-To support the nested directory structure correctly in your ```/hatch-project/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
+To support the nested directory structure correctly in your ```/hatch-project/src/hatch_project/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
 
 ```json
 {
@@ -232,7 +221,7 @@ To support the nested directory structure correctly in your ```/hatch-project/nx
   }
 }
 ```
-/hatch-project/nx.json
+/hatch-project/src/hatch_project/nx.json
 
 ### Key Adjustments:
 - **`projects` section**: Explicitly defines the project structure, setting the `root` and `sourceRoot` to the correct paths within the nested directory.
@@ -257,10 +246,10 @@ $ nx build hatch_project
 
 This structure should allow Nx Cloud to detect the workspace properly.
 
-Run the command to **connect** your workspace to Nx Cloud from the root directory of the `hatch-project`, specifically:
+Run the command to **connect** your workspace to Nx Cloud from the root directory of the nx monorepo `hatch project`, specifically:
 
 ```
-$ cd /hatch-project/
+$ cd /hatch-project/src/hatch_project/
 ```
 
 The command to connect to Nx Cloud is:
