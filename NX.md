@@ -1,6 +1,6 @@
 # Nx
 
-Based on "" at https://nx.dev/getting-started/installation
+Based on "Installation" at https://nx.dev/getting-started/installation
 
 Install **Nx** (required for Nx Monorepos and Nx Cloud) globally as follows:
 
@@ -17,5 +17,6 @@ $ nx --version
 To update **nx**, run:
 
 ```
+$ cd hatch-project/src/hatch_project
 $ npx nx migrate latest
 ```
