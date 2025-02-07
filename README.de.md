@@ -9,7 +9,7 @@ Repository-Namen
 -   [Glossar](./GLOSSARY.md)
 -   [Luke](./HATCH.md)
 -   [Gastgeber](./HOSTS.md)
--   [Images](./IMAGES.md)
+-   [Bilder](./IMAGES.md)
 -   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
 -   [Anforderungen](./REQUIREMENTS.md)
