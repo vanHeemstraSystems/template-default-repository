@@ -1,4 +1,4 @@
-भंडार-नाम
+repository-name
 
 # भंडार नाम
 
@@ -20,11 +20,11 @@
 
 मूलपाठ
 
-के साथ उत्पन्न[रिट्र](https://app.rytr.me)
+के साथ उत्पन्न[Rytr](https://app.rytr.me)
 
 ## 100 - परिचय
 
-देखना[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - आवश्यकताएँ
 
