@@ -12,9 +12,9 @@
 -   [इमेजिस](./IMAGES.md)
 -   [नोकदार](./NX.md)
 -   [सबमैन](./PODMAN.md)
--   [संदर्भ](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [आवश्यकताएं](./REQUIREMENTS.md)
--   [Telemetry](./TELEMETRY.md)
+-   [टेलीमेटरी](./TELEMETRY.md)
 
 **कार्यकारी सारांश**
 
