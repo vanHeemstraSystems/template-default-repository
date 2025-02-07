@@ -11,7 +11,7 @@ repository-name
 -   [主持人](./HOSTS.md)
 -   [圖像](./IMAGES.md)
 -   [Subman](./PODMAN.md)
--   [參考](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
 -   [遙測](./TELEMETRY.md)
 
@@ -19,7 +19,7 @@ repository-name
 
 文字
 
-生成[ritr](https://app.rytr.me)
+生成[Rytr](https://app.rytr.me)
 
 ## 100-簡介
 
@@ -27,7 +27,7 @@ repository-name
 
 ## 200-要求
 
-看[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300-構建我們的應用程序
 
