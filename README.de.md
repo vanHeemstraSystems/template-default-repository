@@ -11,7 +11,7 @@ Repository-Namen
 -   [Gastgeber](./HOSTS.md)
 -   [Bilder](./IMAGES.md)
 -   [Subman](./PODMAN.md)
--   [Referenzen](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [Anforderungen](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
