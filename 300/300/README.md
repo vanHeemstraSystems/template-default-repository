@@ -248,10 +248,114 @@ If you were to use the absolute path `hatch-project/src/hatch_project`, it would
 
 Adjust paths and options as necessary to fit your specific project structure. This configuration will help Nx Cloud identify and manage your workspace correctly.
 
-Make sure to run the **build** command from the `/hatch-project/src` directory to ensure it recognizes the workspace correctly:
+Make sure to run the **build** command from the `/hatch-project/src/hatch_project` directory - which contains the ```nx.json``` file - to ensure it recognizes the workspace correctly:
 ```
+$ cd /hatch-project/src/hatch_project
 $ nx build hatch_project
 ```
+
+**Important**: 
+
+If you don't have `workspace.json` or `project.json`, and instead have `tsconfig.base.json`, you can adjust your setup as follows:
+
+* Option: Single Application: **Create a `workspace.json`**: If your project is a single application, you can create a `workspace.json` file in the `hatch_project` directory. Here’s a basic example:
+
+   ```json
+   {
+     "version": 1,
+     "projects": {
+       "hatch_project": {
+         "root": "src/hatch_project",
+         "sourceRoot": "src/hatch_project/src",
+         "projectType": "application"
+       }
+     }
+   }
+   ```
+
+* Option: Multiple Applications: If your Nx workspace contains multiple applications, you should structure your `workspace.json` (or `project.json`) to reflect each application. Here’s how to set it up:
+
+### Example `workspace.json`
+
+Create a `workspace.json` file in the `hatch_project` directory with the following structure:
+
+```json
+{
+  "version": 1,
+  "projects": {
+    "app1": {
+      "root": "src/hatch_project/app1",
+      "sourceRoot": "src/hatch_project/app1/src",
+      "projectType": "application"
+    },
+    "app2": {
+      "root": "src/hatch_project/app2",
+      "sourceRoot": "src/hatch_project/app2/src",
+      "projectType": "application"
+    },
+    "hatch_project": {
+      "root": "src/hatch_project",
+      "sourceRoot": "src/hatch_project/src",
+      "projectType": "application"
+    }
+  }
+}
+```
+
+### Key Points:
+- **Project Names**: Replace `app1`, `app2`, etc., with meaningful names for your applications.
+- **Root and Source Root**: Adjust the `root` and `sourceRoot` paths to match the actual structure of your applications within the `hatch_project` directory.
+
+### Additional Considerations:
+- **Dependencies**: If applications depend on shared libraries or each other, ensure to define those dependencies in the `nx.json` file.
+- **Configuration Files**: Each application may also have its own `tsconfig.json` if needed, or you can use a shared `tsconfig.base.json` for common settings.
+
+### Example Directory Structure
+Your directory structure might look like this:
+
+```
+/
+└── hatch-project/
+    └── src/
+        └── hatch_project/
+            ├── nx.json
+            ├── workspace.json
+            ├── tsconfig.base.json
+            ├── app1/
+            │   └── src/
+            │       └── main.tsx
+            ├── app2/
+            │   └── src/
+            │       └── main.tsx
+```
+
+### Running Commands
+After setting up `workspace.json`, you can run commands like:
+
+```bash
+nx build app1
+nx build app2
+```
+
+**Note**: `workspace.json` and `project.json` serve different purposes in an Nx workspace:
+
+### `workspace.json`
+- **Purpose**: It defines the overall structure of the Nx workspace.
+- **Content**: Contains configurations for all projects within the workspace, including their paths, types, and any shared settings.
+- **Usage**: Typically used in monorepos with multiple projects to manage and organize them centrally.
+
+### `project.json`
+- **Purpose**: It defines the configuration for an individual project within the workspace.
+- **Content**: Contains specific settings, targets (like build, test, lint), and options for that particular project.
+- **Usage**: Used when you want to modularize project configurations, allowing each project to have its own settings while still being part of the larger workspace.
+
+### Summary
+- **`workspace.json`**: Central configuration for the entire workspace.
+- **`project.json`**: Specific configuration for individual projects.
+
+In practice, you might use one or both depending on how you structure your Nx workspace. In newer versions of Nx, using `project.json` for individual projects is becoming more common.
+
+This structure will help Nx Cloud recognize and manage multiple applications effectively.
 
 This structure should allow Nx Cloud to detect the workspace properly.
 
@@ -285,3 +389,4 @@ For example to ignore any files in ```.next```:
 .next
 ```
 .nxignore
+
