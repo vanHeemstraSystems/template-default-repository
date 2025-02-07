@@ -18,7 +18,7 @@ repositorio
 
 **Resumen ejecutivo**
 
-Texto
+Text
 
 Generado con[Ritro](https://app.rytr.me)
 
