@@ -17,13 +17,13 @@
 
 **ملخص تنفيذي**
 
-نص
+Text
 
 ولدت مع[ريتر](https://app.rytr.me)
 
 ## 100 - مقدمة
 
-See [README.md](./100/README.md)
+يرى[README.md](./100/README.md)
 
 ## 200 - المتطلبات
 
