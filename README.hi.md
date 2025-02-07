@@ -11,7 +11,7 @@
 -   [मेजबान](./HOSTS.md)
 -   [इमेजिस](./IMAGES.md)
 -   [सबमैन](./PODMAN.md)
--   [संदर्भ](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [आवश्यकताएं](./REQUIREMENTS.md)
 -   [टेलीमेटरी](./TELEMETRY.md)
 
@@ -31,8 +31,8 @@
 
 ## 300 - हमारे आवेदन का निर्माण
 
-See [README.md](./300/README.md)
+देखना[README.md](./300/README.md)
 
 ## 400 - निष्कर्ष
 
-See [README.md](./400/README.md)
+देखना[README.md](./400/README.md)
