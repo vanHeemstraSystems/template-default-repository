@@ -18,5 +18,6 @@ To update **nx**, run:
 
 ```
 $ cd hatch-project/src/hatch_project
-$ npx nx migrate latest
+$ npx nx migrate latest # if nx has not yet been installed
+$ nx migrate latest     # if nx has already been installed
 ```
