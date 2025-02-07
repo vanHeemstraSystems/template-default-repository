@@ -151,20 +151,75 @@ This will generate the following file and directory structure underneath the ```
 
 **IMPORTANT**: Modify **nx.json** so it can connect with Nx Cloud.
 
-Here’s a sample `nx.json` configuration that supports Nx Cloud for your workspace:
+To support the nested directory structure correctly in your ```/hatch-project/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
 
 ```json
 {
-  "npmScope": "hatch_project",
-  "affected": {
-    "defaultBase": "main"
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "production": [
+      "default",
+      "!{projectRoot}/.eslintrc.json",
+      "!{projectRoot}/eslint.config.mjs",
+      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+      "!{projectRoot}/tsconfig.spec.json",
+      "!{projectRoot}/jest.config.[jt]s",
+      "!{projectRoot}/src/test-setup.[jt]s",
+      "!{projectRoot}/test-setup.[jt]s"
+    ],
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "@nrwl/workspace/src/tasks-runner/default-task-runner",
+  "nxCloudId": "67a3783761d0514ff26bf202",
+  "plugins": [
+    {
+      "plugin": "@nx/webpack/plugin",
       "options": {
-        "cacheableOperations": ["build", "test", "lint"],
-        "localCache": true
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "targetDefaults": {
+    "e2e-ci--**/*": {
+      "dependsOn": ["^build"]
+    }
+  },
+  "generators": {
+    "@nx/react": {
+      "application": {
+        "babel": true,
+        "style": "tailwind",
+        "linter": "eslint",
+        "bundler": "webpack"
+      },
+      "component": {
+        "style": "tailwind"
+      },
+      "library": {
+        "style": "tailwind",
+        "linter": "eslint"
       }
     }
   },
@@ -172,26 +227,18 @@ Here’s a sample `nx.json` configuration that supports Nx Cloud for your worksp
     "hatch_project": {
       "root": "src/hatch_project",
       "sourceRoot": "src/hatch_project/src",
-      "projectType": "application",
-      "targets": {
-        "build": {
-          "executor": "@nrwl/web:build",
-          "options": {
-            "outputPath": "dist/hatch_project",
-            "index": "src/hatch_project/src/index.html",
-            "main": "src/hatch_project/src/main.tsx",
-            "polyfills": "src/hatch_project/src/polyfills.ts",
-            "tsConfig": "src/hatch_project/tsconfig.app.json",
-            "assets": ["src/hatch_project/src/favicon.ico", "src/hatch_project/src/assets"],
-            "styles": ["src/hatch_project/src/styles.css"],
-            "scripts": []
-          }
-        }
-      }
+      "projectType": "application"
     }
   }
 }
 ```
+/hatch-project/nx.json
+
+### Key Adjustments:
+- **`projects` section**: Explicitly defines the project structure, setting the `root` and `sourceRoot` to the correct paths within the nested directory.
+- Ensure that all paths reflect the actual structure of your workspace.
+
+This configuration will help Nx Cloud properly identify and manage your nested workspace.
 
 Notice that it prepends paths with ```src/``` (e.g., ```"root": "src/hatch_project",```) to allow for our **nested** directory structure.
 
@@ -229,3 +276,14 @@ Finish the CI setup by visiting: https://cloud.nx.app/connect/lvaFjW0bDV # **Not
 ## Nested app directories
 
 You can have nested folders, no problems. 👍 Here's a [live example](https://github.com/codyslexia/nexa/tree/main/apps/graphql). You can see that apps/graphql/users is a nested directory where users is the actual project. There's also this [other example](https://github.com/nrwl/nx-incremental-large-repo/tree/master/libs/app0/lib1) from the ```nrwl``` family.
+
+## Nx ignore
+
+You can place a ```.nxignore``` in the root of the project directory, here ```/hatch-project/src/hatch_project/.nxignore```.
+
+For example to ignore any files in ```.next```:
+
+```
+.next
+```
+.nxignore
