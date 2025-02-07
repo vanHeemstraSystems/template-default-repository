@@ -12,7 +12,7 @@ nom de référentiel
 -   [Images](./IMAGES.md)
 -   [Nx](./NX.md)
 -   [Sous-homme](./PODMAN.md)
--   [Références](./REFERENCES.md)
+-   [References](./REFERENCES.md)
 -   [Exigences](./REQUIREMENTS.md)
 -   [Télémétrie](./TELEMETRY.md)
 
@@ -26,7 +26,7 @@ Généré avec[Ritr](https://app.rytr.me)
 
 Voir[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - exigences
 
 Voir[README.md](./200/README.md)
 
