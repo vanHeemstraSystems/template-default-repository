@@ -10,6 +10,7 @@ repository-name
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [圖像](./IMAGES.md)
+-   [nx](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [參考](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
@@ -35,4 +36,4 @@ repository-name
 
 ## 400-結論
 
-See [README.md](./400/README.md)
+看[README.md](./400/README.md)
