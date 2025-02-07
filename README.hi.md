@@ -1,4 +1,4 @@
-repository-name
+भंडार-नाम
 
 # भंडार नाम
 
@@ -11,9 +11,9 @@ repository-name
 -   [मेजबान](./HOSTS.md)
 -   [इमेजिस](./IMAGES.md)
 -   [नोकदार](./NX.md)
--   [सबमैन](./PODMAN.md)
+-   [Podman](./PODMAN.md)
 -   [संदर्भ](./REFERENCES.md)
--   [आवश्यकताएं](./REQUIREMENTS.md)
+-   [Requirements](./REQUIREMENTS.md)
 -   [टेलीमेटरी](./TELEMETRY.md)
 
 **कार्यकारी सारांश**
@@ -22,9 +22,9 @@ repository-name
 
 के साथ उत्पन्न[Rytr](https://app.rytr.me)
 
-## 100 - परिचय
+## 100 - Introduction
 
-See [README.md](./100/README.md)
+देखना[README.md](./100/README.md)
 
 ## 200 - आवश्यकताएँ
 
