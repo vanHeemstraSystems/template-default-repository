@@ -97,7 +97,7 @@ NX   Welcome to the Nx community! 👋
 💬 Discuss Nx on Discord: https://go.nx.dev/community
 ```
 
-This will generate the following file and directory structure underneath the ```src``` directory (Note: ```hatch_project``` uses that same directory as previously created by Hatch. **This is intentional!**):
+This will generate the following file and directory structure underneath the ```/hatch-project/src``` directory (Note: ```hatch_project``` uses that same directory as previously created by Hatch. **This is intentional!**):
 
 ```
 └─ hatch-project
