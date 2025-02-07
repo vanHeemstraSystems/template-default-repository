@@ -20,7 +20,7 @@ Repository-Namen
 
 Text
 
-Generated with [Ritr](https://app.rytr.me)
+Erzeugt mit[Ritr](https://app.rytr.me)
 
 ## 100 - Einführung
 
