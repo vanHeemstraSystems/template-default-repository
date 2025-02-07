@@ -191,7 +191,7 @@ Adjust paths and options as necessary to fit your specific project structure. Th
 
 Make sure to run the **build** command from the `/hatch-project/src` directory to ensure it recognizes the workspace correctly:
 ```
-nx build hatch_project
+$ nx build hatch_project
 ```
 
 This structure should allow Nx Cloud to detect the workspace properly.
