@@ -138,6 +138,17 @@ This will generate the following file and directory structure underneath the ```
 - **`hatch_project/tsconfig.json`**: TypeScript configuration for the project.
 - **`hatch_project/workspace.json` or `project.json`**: Defines the structure and projects within the workspace.
 
+**IMPORTANT**: Move **nx.json** to ```hatch-project``` directory so it can connect with Nx Cloud.
+
+```
+└─ hatch-project
+               ├─ ...
+               ├─ nx.json
+               └─ src
+                    └─ hatch_project
+                                   ├─ ...               
+```
+
 **IMPORTANT**: Modify **nx.json** so it can connect with Nx Cloud.
 
 Here’s a sample `nx.json` configuration that supports Nx Cloud for your workspace:
