@@ -19,7 +19,7 @@ repository-name
 
 文字
 
-生成[Rytr](https://app.rytr.me)
+生成[ritr](https://app.rytr.me)
 
 ## 100-簡介
 
@@ -35,4 +35,4 @@ repository-name
 
 ## 400-結論
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
