@@ -1,15 +1,15 @@
 Repository-Namen
 
-# Repository -Name
+# Repository Name
 
 > Slugline
 
 -   [DNS](./DNS.md)
 -   [Dokumentation](./DOCUMENTATION.md)
 -   [Glossar](./GLOSSARY.md)
--   [Hatch](./HATCH.md)
+-   [Luke](./HATCH.md)
 -   [Gastgeber](./HOSTS.md)
--   [Bilder](./IMAGES.md)
+-   [Images](./IMAGES.md)
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
@@ -20,7 +20,7 @@ Repository-Namen
 
 Text
 
-Erzeugt mit[Rytr](https://app.rytr.me)
+Erzeugt mit[Ritr](https://app.rytr.me)
 
 ## 100 - Einführung
 
