@@ -261,6 +261,32 @@ Your directory structure might look like this:
 ├── workspace.json
 ```
 
+Where ```tsconfig.base.json``` contains:
+
+```
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "exclude": ["node_modules", "tmp"]
+}
+```
+/hatch-project/src/hatch_project/tsconfig.base.json
+
 ### Running Commands
 After setting up `workspace.json`, you can run commands like:
 
