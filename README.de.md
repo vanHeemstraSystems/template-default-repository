@@ -1,6 +1,6 @@
 Repository-Namen
 
-# Repository Name
+# Repository -Name
 
 > Slugline
 
@@ -9,7 +9,7 @@ Repository-Namen
 -   [Glossar](./GLOSSARY.md)
 -   [Luke](./HATCH.md)
 -   [Gastgeber](./HOSTS.md)
--   [Images](./IMAGES.md)
+-   [Bilder](./IMAGES.md)
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
