@@ -1,6 +1,6 @@
 repository-name
 
-# Repository Name
+# 存儲庫名稱
 
 > 板條
 
@@ -36,4 +36,4 @@ repository-name
 
 ## 400-結論
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
