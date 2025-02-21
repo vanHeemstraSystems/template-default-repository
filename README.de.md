@@ -5,7 +5,7 @@ Repository-Namen
 > Slugline
 
 -   [DNS](./DNS.md)
--   [Dokumentation](./DOCUMENTATION.md)
+-   [Documentation](./DOCUMENTATION.md)
 -   [Glossar](./GLOSSARY.md)
 -   [Luke](./HATCH.md)
 -   [Gastgeber](./HOSTS.md)
