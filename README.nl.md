@@ -5,8 +5,8 @@ repository-naam
 > Sluglijn
 
 -   [DNS](./DNS.md)
--   [Documentatie](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
+-   [Documentation](./DOCUMENTATION.md)
+-   [Glossarium](./GLOSSARY.md)
 -   [Klep](./HATCH.md)
 -   [Gastheren](./HOSTS.md)
 -   [Beelden](./IMAGES.md)
@@ -16,7 +16,7 @@ repository-naam
 -   [Vereisten](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
-**Executive Summary**
+**Uitvoerende samenvatting**
 
 Tekst
 
@@ -24,13 +24,13 @@ Gegenereerd met[Ritr](https://app.rytr.me)
 
 ## 100 - Inleiding
 
-See [README.md](./100/README.md)
+Zien[README.md](./100/README.md)
 
 ## 200 - Vereisten
 
 Zien[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - onze applicatie bouwen
 
 Zien[README.md](./300/README.md)
 
