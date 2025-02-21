@@ -26,13 +26,13 @@ repository-name
 
 看[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200-要求
 
 看[README.md](./200/README.md)
 
 ## 300-構建我們的應用程序
 
-看[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400-結論
 
