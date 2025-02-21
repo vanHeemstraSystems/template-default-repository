@@ -221,8 +221,8 @@ To support the nested directory structure correctly in your ```/nx.json```, you 
   },
   "projects": {
     "hatch_project": {
-      "root": "src/hatch_project",
-      "sourceRoot": "src/hatch_project/src",
+      "root": "hatch-project/src/hatch_project",
+      "sourceRoot": "hatch-project/src/hatch_project/src",
       "projectType": "application"
     }
   }
