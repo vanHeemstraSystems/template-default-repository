@@ -9,9 +9,9 @@ repository-name
 -   [词汇表](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
--   [Images](./IMAGES.md)
+-   [图像](./IMAGES.md)
 -   [nx](./NX.md)
--   [Podman](./PODMAN.md)
+-   [Subman](./PODMAN.md)
 -   [参考](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
 -   [遥测](./TELEMETRY.md)
@@ -22,7 +22,7 @@ repository-name
 
 生成[ritr](https://app.rytr.me)
 
-## 100 - Introduction
+## 100-简介
 
 看[README.md](./100/README.md)
 
@@ -32,8 +32,8 @@ repository-name
 
 ## 300-构建我们的应用程序
 
-See [README.md](./300/README.md)
+看[README.md](./300/README.md)
 
-## 400-结论
+## 400 - Conclusion
 
 看[README.md](./400/README.md)
