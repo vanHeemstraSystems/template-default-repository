@@ -13,7 +13,7 @@ repository-naam
 -   [Nx](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [Referenties](./REFERENCES.md)
--   [Vereisten](./REQUIREMENTS.md)
+-   [Requirements](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
 **Uitvoerende samenvatting**
