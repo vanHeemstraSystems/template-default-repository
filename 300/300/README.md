@@ -138,7 +138,16 @@ This will generate the following file and directory structure underneath the ```
 - **`hatch_project/tsconfig.json`**: TypeScript configuration for the project.
 - **`hatch_project/workspace.json` or `project.json`**: Defines the structure and projects within the workspace.
 
-**IMPORTANT**: Modify **nx.json** so it can connect with Nx Cloud.
+**IMPORTANT**: Move **nx.json** to the root of the repository so it can connect with Nx Cloud.
+
+```
+├─ hatch-project
+│               ├─ ...
+│               └─ src
+│                    └─ hatch_project
+│                                   ├─ ...  
+├─ nx.json                                                
+```
 
 To support the nested directory structure correctly in your ```/hatch-project/src/hatch_project/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
 
