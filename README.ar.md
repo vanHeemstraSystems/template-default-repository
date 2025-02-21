@@ -1,6 +1,6 @@
 اسم المستودع
 
-# اسم المستودع
+# Repository Name
 
 > Slugline
 
@@ -8,8 +8,8 @@
 -   [الوثائق](./DOCUMENTATION.md)
 -   [مسرد](./GLOSSARY.md)
 -   [فتحة](./HATCH.md)
--   [المضيفين](./HOSTS.md)
--   [Images](./IMAGES.md)
+-   [Hosts](./HOSTS.md)
+-   [الصور](./IMAGES.md)
 -   [NX](./NX.md)
 -   [رجل فرعي](./PODMAN.md)
 -   [مراجع](./REFERENCES.md)
@@ -20,7 +20,7 @@
 
 نص
 
-ولدت مع[ريتر](https://app.rytr.me)
+Generated with [Rytr](https://app.rytr.me)
 
 ## 100 - مقدمة
 
