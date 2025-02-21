@@ -8,7 +8,7 @@ Repository-Namen
 -   [Dokumentation](./DOCUMENTATION.md)
 -   [Glossar](./GLOSSARY.md)
 -   [Luke](./HATCH.md)
--   [Gastgeber](./HOSTS.md)
+-   [Hosts](./HOSTS.md)
 -   [Bilder](./IMAGES.md)
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)
@@ -28,7 +28,7 @@ Sehen[README.md](./100/README.md)
 
 ## 200 - Anforderungen
 
-Sehen[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300 - Aufbau unserer Bewerbung
 
