@@ -154,6 +154,7 @@ To support the nested directory structure correctly in your ```/nx.json```, you 
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "nxCloudId": ["67a3831acafec34e47159841"],
     "production": [
       "default",
       "!{projectRoot}/.eslintrc.json",
@@ -166,7 +167,7 @@ To support the nested directory structure correctly in your ```/nx.json```, you 
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "67a3783761d0514ff26bf202",
+  "nxCloudId": "67b72b5c86db7789c5ca1378",
   "plugins": [
     {
       "plugin": "@nx/webpack/plugin",
