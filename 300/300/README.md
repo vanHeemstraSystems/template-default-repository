@@ -410,7 +410,7 @@ Above command will create a ```package.json``` file at the root of the repositor
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Willem van Heemstra",
+  "author": "your-github-username",
   "license": "ISC",
   "devDependencies": {
     "@nrwl/workspace": "^19.8.4",
