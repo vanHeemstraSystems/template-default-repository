@@ -11,12 +11,12 @@ repository-name
 -   [主持人](./HOSTS.md)
 -   [图像](./IMAGES.md)
 -   [nx](./NX.md)
--   [Subman](./PODMAN.md)
+-   [Podman](./PODMAN.md)
 -   [参考](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
 -   [遥测](./TELEMETRY.md)
 
-**执行摘要**
+**Executive Summary**
 
 文本
 
@@ -32,7 +32,7 @@ repository-name
 
 ## 300-构建我们的应用程序
 
-看[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400-结论
 
