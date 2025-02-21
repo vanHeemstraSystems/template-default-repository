@@ -1,4 +1,4 @@
-repository-name
+repositorio
 
 # Nombre de repositorio
 
@@ -20,7 +20,7 @@ repository-name
 
 Texto
 
-Generado con[Rytr](https://app.rytr.me)
+Generado con[Ritro](https://app.rytr.me)
 
 ## 100 - Introducción
 
