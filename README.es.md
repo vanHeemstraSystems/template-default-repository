@@ -6,7 +6,7 @@ repositorio
 
 -   [DNS](./DNS.md)
 -   [Documentación](./DOCUMENTATION.md)
--   [Glosario](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [Escotilla](./HATCH.md)
 -   [Anfitriones](./HOSTS.md)
 -   [Imágenes](./IMAGES.md)
@@ -22,13 +22,13 @@ Texto
 
 Generado con[Ritro](https://app.rytr.me)
 
-## 100 - Introduction
+## 100 - Introducción
 
 Ver[README.md](./100/README.md)
 
 ## 200 - Requisitos
 
-See [README.md](./200/README.md)
+Ver[README.md](./200/README.md)
 
 ## 300 - Construyendo nuestra aplicación
 
