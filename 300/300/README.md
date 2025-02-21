@@ -484,7 +484,7 @@ For example to ignore any files in ```.next```:
 ```
 .next
 ```
-.nxignore
+/hatch-project/src/hatch_project/.nxignore
 
 Now to run a build, run the following command from the root of the repository:
 
