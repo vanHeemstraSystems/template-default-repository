@@ -1,4 +1,4 @@
-repository-name
+اسم المستودع
 
 # اسم المستودع
 
@@ -16,7 +16,7 @@ repository-name
 -   [متطلبات](./REQUIREMENTS.md)
 -   [القياس عن بعد](./TELEMETRY.md)
 
-**ملخص تنفيذي**
+**Executive Summary**
 
 نص
 
