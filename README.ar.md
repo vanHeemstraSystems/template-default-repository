@@ -1,8 +1,8 @@
-اسم المستودع
+repository-name
 
 # اسم المستودع
 
-> خط الصرخ
+> Slugline
 
 -   [DNS](./DNS.md)
 -   [الوثائق](./DOCUMENTATION.md)
