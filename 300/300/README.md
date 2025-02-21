@@ -147,7 +147,7 @@ This will generate the following file and directory structure underneath the ```
 
 **IMPORTANT**: Modify **nx.json** so it can connect with Nx Cloud.
 
-To support the nested directory structure correctly in your ```/hatch-project/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
+To support the nested directory structure correctly in your ```/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
 
 ```json
 {
