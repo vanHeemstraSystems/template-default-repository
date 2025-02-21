@@ -373,8 +373,9 @@ Where ```tsconfig.base.json``` contains:
 After setting up `workspace.json`, you can run commands like:
 
 ```bash
-nx build app1
-nx build app2
+$ cd / # Go to the root of the repository
+$ nx build app1
+$ nx build app2
 ```
 
 This structure will help Nx Cloud recognize and manage multiple applications effectively.
@@ -384,7 +385,7 @@ This structure should allow Nx Cloud to detect the workspace properly.
 Run the command to **connect** your workspace to Nx Cloud from the root of the repository, specifically:
 
 ```
-$ cd /../../../
+$ cd / # Go to the root of the repository
 $ npm init -y # If no package.json exists
 # Go through the initialization steps
 $ npm install -g nx@latest # If not already installed
@@ -399,6 +400,7 @@ Now commit these changes to GitHub repository before continuing!
 The command to connect to Nx Cloud is:
 
 ```
+$ cd / # Go to the root of the repository
 $ nx connect-to-nx-cloud
 ```
 
