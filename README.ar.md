@@ -5,9 +5,9 @@
 > Slugline
 
 -   [DNS](./DNS.md)
--   [الوثائق](./DOCUMENTATION.md)
+-   [Documentation](./DOCUMENTATION.md)
 -   [مسرد](./GLOSSARY.md)
--   [Hatch](./HATCH.md)
+-   [فتحة](./HATCH.md)
 -   [المضيفين](./HOSTS.md)
 -   [الصور](./IMAGES.md)
 -   [NX](./NX.md)
@@ -32,7 +32,7 @@
 
 ## 300 - بناء تطبيقنا
 
-See [README.md](./300/README.md)
+يرى[README.md](./300/README.md)
 
 ## 400 - الخلاصة
 
