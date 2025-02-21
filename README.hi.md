@@ -11,10 +11,10 @@
 -   [मेजबान](./HOSTS.md)
 -   [इमेजिस](./IMAGES.md)
 -   [नोकदार](./NX.md)
--   [सबमैन](./PODMAN.md)
+-   [Podman](./PODMAN.md)
 -   [संदर्भ](./REFERENCES.md)
 -   [आवश्यकताएं](./REQUIREMENTS.md)
--   [टेलीमेटरी](./TELEMETRY.md)
+-   [Telemetry](./TELEMETRY.md)
 
 **कार्यकारी सारांश**
 
@@ -28,12 +28,12 @@
 
 ## 200 - आवश्यकताएँ
 
-See [README.md](./200/README.md)
+देखना[README.md](./200/README.md)
 
 ## 300 - हमारे आवेदन का निर्माण
 
 देखना[README.md](./300/README.md)
 
-## 400 - निष्कर्ष
+## 400 - Conclusion
 
 देखना[README.md](./400/README.md)
