@@ -1,15 +1,15 @@
 repository-naam
 
-# Repository -naam
+# Repository Name
 
-> Sluglijn
+> Slugline
 
 -   [DNS](./DNS.md)
 -   [Documentation](./DOCUMENTATION.md)
--   [Glossarium](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [Klep](./HATCH.md)
--   [Gastheren](./HOSTS.md)
--   [Beelden](./IMAGES.md)
+-   [Hosts](./HOSTS.md)
+-   [Images](./IMAGES.md)
 -   [Nx](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [Referenties](./REFERENCES.md)
@@ -20,11 +20,11 @@ repository-naam
 
 Tekst
 
-Gegenereerd met[Ritr](https://app.rytr.me)
+Generated with [Rytr](https://app.rytr.me)
 
 ## 100 - Inleiding
 
-Zien[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - Vereisten
 
