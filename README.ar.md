@@ -7,10 +7,10 @@
 -   [DNS](./DNS.md)
 -   [الوثائق](./DOCUMENTATION.md)
 -   [مسرد](./GLOSSARY.md)
--   [فتحة](./HATCH.md)
+-   [Hatch](./HATCH.md)
 -   [المضيفين](./HOSTS.md)
 -   [الصور](./IMAGES.md)
--   [Nx](./NX.md)
+-   [NX](./NX.md)
 -   [رجل فرعي](./PODMAN.md)
 -   [مراجع](./REFERENCES.md)
 -   [متطلبات](./REQUIREMENTS.md)
@@ -32,7 +32,7 @@
 
 ## 300 - بناء تطبيقنا
 
-يرى[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - الخلاصة
 
