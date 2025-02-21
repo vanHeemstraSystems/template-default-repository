@@ -1,6 +1,6 @@
 repositorio
 
-# Repository Name
+# Nombre de repositorio
 
 > Línea de babosa
 
@@ -9,7 +9,7 @@ repositorio
 -   [Glosario](./GLOSSARY.md)
 -   [Escotilla](./HATCH.md)
 -   [Anfitriones](./HOSTS.md)
--   [Images](./IMAGES.md)
+-   [Imágenes](./IMAGES.md)
 -   [Nx](./NX.md)
 -   [Submario](./PODMAN.md)
 -   [Referencias](./REFERENCES.md)
@@ -34,6 +34,6 @@ Ver[README.md](./200/README.md)
 
 Ver[README.md](./300/README.md)
 
-## 400 - Conclusión
+## 400 - Conclusion
 
 Ver[README.md](./400/README.md)
