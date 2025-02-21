@@ -7,7 +7,7 @@ nom de référentiel
 -   [DNS](./DNS.md)
 -   [Documentation](./DOCUMENTATION.md)
 -   [Glossaire](./GLOSSARY.md)
--   [Trappe](./HATCH.md)
+-   [Hatch](./HATCH.md)
 -   [Hôtes](./HOSTS.md)
 -   [Images](./IMAGES.md)
 -   [Nx](./NX.md)
@@ -18,7 +18,7 @@ nom de référentiel
 
 **Résumé exécutif**
 
-Text
+Texte
 
 Généré avec[Ritr](https://app.rytr.me)
 
