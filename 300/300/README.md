@@ -368,7 +368,6 @@ Where ```tsconfig.base.json``` contains:
 ```
 /hatch-project/src/hatch_project/tsconfig.base.json
 
-
 ### Running Commands
 After setting up `workspace.json`, you can run commands like:
 
@@ -449,7 +448,6 @@ https://cloud.nx.app/connect/Ehf8PFoDWR
 
 Finish the CI setup by visiting: https://cloud.nx.app/connect/eXwFUcpdBt # **Note**: the URL will differ per creation. See [Enable GitHub PR Integration](https://nx.dev/ci/recipes/source-control-integration/github) and/or watch [PNPM-CI: Connect Your Workspace to Nx Cloud for Enhanced Collaboration](https://www.youtube.com/watch?v=8mqHXYIl_qI).
 
-
 The message "A workspace has already been assigned to this Nx Cloud connection" means that:
 
 1. Your workspace is already configured with an Nx Cloud ID
@@ -473,8 +471,6 @@ This will:
   - Generate a new, unique connection
   - Provide you with a fresh URL to connect
 
-
-
 ## Nested app directories
 
 You can have nested folders, no problems. 👍 Here's a [live example](https://github.com/codyslexia/nexa/tree/main/apps/graphql). You can see that apps/graphql/users is a nested directory where users is the actual project. There's also this [other example](https://github.com/nrwl/nx-incremental-large-repo/tree/master/libs/app0/lib1) from the ```nrwl``` family.
@@ -490,15 +486,16 @@ For example to ignore any files in ```.next```:
 ```
 .nxignore
 
-
 Now to run a build, run the following command from the root of the repository:
 
 ```
-npx nx run-many -t build
+$ cd / # Go to the root of the repository
+$ npx nx run-many -t build
 ```
 
 To run a build for all applications, run the following command from the root of the repository:
 
 ```
-npx nx run-many -t build --all
+$ cd / # Go to the root of the repository
+$ npx nx run-many -t build --all
 ```
