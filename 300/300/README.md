@@ -230,7 +230,7 @@ To support the nested directory structure correctly in your ```/hatch-project/sr
   }
 }
 ```
-/hatch-project/src/hatch_project/nx.json
+/nx.json
 
 ### Key Adjustments:
 - **`projects` section**: Explicitly defines the project structure, setting the `root` and `sourceRoot` to the correct paths within the nested directory.
