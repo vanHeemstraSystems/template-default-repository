@@ -389,11 +389,42 @@ $ cd / # Go to the root of the repository
 $ npm init -y # If no package.json exists
 # Go through the initialization steps
 $ npm install -g nx@latest # If not already installed
-$ npm install --save-dev nx @nrwl/workspace
+$ npm install --save-dev nx
+$ npm install --save-dev @nrwl/workspace
 $ npm install --save-dev @nx/webpack
 $ npm install --save-dev webpack-cli
 $ npm install --save-dev @nx/react @nx/eslint @nx/playwright @nx/jest
 ```
+
+Above command will create a ```package.json``` file at the root of the repository:
+
+```
+{
+  "name": "repository-name",
+  "version": "1.0.0",
+  "description": "repository-name",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willem van Heemstra",
+  "license": "ISC",
+  "devDependencies": {
+    "@nrwl/workspace": "^19.8.4",
+    "@nx/eslint": "^20.4.5",
+    "@nx/jest": "^20.4.5",
+    "@nx/playwright": "^20.4.5",
+    "@nx/react": "^20.4.5",
+    "@nx/webpack": "^20.4.5",
+    "nx": "^20.4.5",
+    "webpack-cli": "^6.0.1"
+  }
+}
+```
+repository-name/package.json
 
 Now commit these changes to GitHub repository before continuing!
 
