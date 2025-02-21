@@ -1,13 +1,9 @@
 # 300 - Creating a New React Monorepo
 
-**Warning**: Make sure you have installed and created the directory structure of ```hatch``` already. See [HATCH.md](../../HATCH.md)<br/>
-**Warning**: Make sure you have installed ```nx``` already. See [NX.md](../../NX.md).
-
 Create a new React monorepo with the following command:
 
 ```
 $ cd hatch-project/src # navigate to the 'hatch-project/src' sub-directory, previously created by hatch
-$ mv hatch_project original_hatch_project # temporarily rename the hatch_project directory so nx will not complain
 $ npx create-nx-workspace@latest hatch_project --preset=react-monorepo
 ```
 
@@ -105,7 +101,7 @@ This will generate the following file and directory structure underneath the ```
                     └─ hatch_project
                                    ├─ ...
                                    ├─ apps
-                                   │  ├─ react-store
+                                   │  ├─ hatch_project
                                    │  │  ├─ public
                                    │  │  │  └─ ...
                                    │  │  ├─ src
@@ -123,7 +119,7 @@ This will generate the following file and directory structure underneath the ```
                                    │  │  ├─ tsconfig.json
                                    │  │  ├─ tsconfig.spec.json
                                    │  │  └─ vite.config.ts
-                                   │  └─ react-store-e2e
+                                   │  └─ hatch_project-e2e
                                    │     └─ ...
                                    ├─ nx.json
                                    ├─ tsconfig.base.json
@@ -149,7 +145,9 @@ This will generate the following file and directory structure underneath the ```
 ├─ nx.json                                                
 ```
 
-To support the nested directory structure correctly in your ```/hatch-project/src/hatch_project/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
+**IMPORTANT**: Modify **nx.json** so it can connect with Nx Cloud.
+
+To support the nested directory structure correctly in your ```/hatch-project/nx.json```, you should adjust the paths to reflect the correct locations within the nested workspace. Here’s a revised example:
 
 ```json
 {
@@ -230,7 +228,7 @@ To support the nested directory structure correctly in your ```/hatch-project/sr
   }
 }
 ```
-/nx.json
+repository-name/nx.json
 
 ### Key Adjustments:
 - **`projects` section**: Explicitly defines the project structure, setting the `root` and `sourceRoot` to the correct paths within the nested directory.
@@ -238,16 +236,16 @@ To support the nested directory structure correctly in your ```/hatch-project/sr
 
 This configuration will help Nx Cloud properly identify and manage your nested workspace.
 
-Notice that it prepends paths with ```src/``` (e.g., ```"root": "src/hatch_project",```) to allow for our **nested** directory structure.
+Notice that it prepends paths with ```hatch-project/src/``` (e.g., ```"root": "hatch-project/src/hatch_project",```) to allow for our **nested** directory structure.
 
 The path for `root` in the `projects` section should be specified relative to the workspace root, which is typically the directory where your `nx.json` file is located. 
 
-Since your `nx.json` is at `repository-name/hatch-project/src/hatch_project/nx.json`, the paths are relative to the `src/hatch_project` directory. Thus:
+Since your `nx.json` is at `repository-name/nx.json`, the paths are relative to the `hatch-project/src/hatch_project` directory. Thus:
 
-- **`root`**: Should be `"src/hatch_project"` because it indicates the base directory for the project relative to the workspace's root.
-- **`sourceRoot`**: Should be `"src/hatch_project/src"` for the same reason.
+- **`root`**: Should be `"hatch-project/src/hatch_project"` because it indicates the base directory for the project relative to the workspace's root.
+- **`sourceRoot`**: Should be `"hatch-project/src/hatch_project/src"` for the same reason.
 
-If you were to use the absolute path `hatch-project/src/hatch_project`, it would not be correct in the context of how Nx expects paths to be defined. Nx uses paths relative to the workspace root to maintain consistency across different environments and setups.
+If you were to use the absolute path `hatch-project/src/hatch_project`, it would not be correct in the context of how Nx expects paths to be defined. Nx uses paths relative to the workspace root to maintain consistency across different environments and setups. **Note**: In our case the path is from the root of the repository so there is no difference in relative or absolute path.
 
 ### Key Sections:
 - **`npmScope`**: Defines the scope for your packages.
@@ -257,9 +255,10 @@ If you were to use the absolute path `hatch-project/src/hatch_project`, it would
 
 Adjust paths and options as necessary to fit your specific project structure. This configuration will help Nx Cloud identify and manage your workspace correctly.
 
-Make sure to run the **build** command from the `/hatch-project/src/hatch_project` directory - which contains the ```nx.json``` file - to ensure it recognizes the workspace correctly:
+Make sure to run the **build** command from the root of the repository - which contains the ```nx.json``` file - to ensure it recognizes the workspace correctly:
+
 ```
-$ cd /hatch-project/src/hatch_project
+$ cd / # Go to the root of the repository
 $ nx build hatch_project
 ```
 
@@ -267,44 +266,45 @@ $ nx build hatch_project
 
 If you don't have `workspace.json` or `project.json`, and instead have `tsconfig.base.json`, you can adjust your setup as follows:
 
-* Option: Single Application: **Create a `workspace.json`**: If your project is a single application, you can create a `workspace.json` file in the `hatch_project` directory. Here’s a basic example:
+* Option: Single Application: **Create a `workspace.json`**: If your project is a single application, you can create a `workspace.json` file in the root of the repository. Here’s a basic example:
 
-   ```json
-   {
-     "version": 1,
-     "projects": {
-       "hatch_project": {
-         "root": "src/hatch_project",
-         "sourceRoot": "src/hatch_project/src",
-         "projectType": "application"
-       }
-     }
-   }
-   ```
+```json
+{
+  "version": 1,
+  "projects": {
+    "hatch_project": {
+      "root": "hatch-project/src/hatch_project",
+      "sourceRoot": "hatch-project/src/hatch_project/src",
+      "projectType": "application"
+    }
+  }
+}
+```
+repository-name/workspace.json
 
 * Option: Multiple Applications: If your Nx workspace contains multiple applications, you should structure your `workspace.json` (or `project.json`) to reflect each application. Here’s how to set it up:
 
 ### Example `workspace.json`
 
-Create a `workspace.json` file in the `hatch_project` directory with the following structure:
+Create a `workspace.json` file in the root of the repository with the following structure:
 
 ```json
 {
   "version": 1,
   "projects": {
     "app1": {
-      "root": "src/hatch_project/app1",
-      "sourceRoot": "src/hatch_project/app1/src",
+      "root": "hatch-project/src/hatch_project/app1",
+      "sourceRoot": "hatch-project/src/hatch_project/app1/src",
       "projectType": "application"
     },
     "app2": {
-      "root": "src/hatch_project/app2",
-      "sourceRoot": "src/hatch_project/app2/src",
+      "root": "hatch-project/src/hatch_project/app2",
+      "sourceRoot": "hatch-project/src/hatch_project/app2/src",
       "projectType": "application"
     },
     "hatch_project": {
-      "root": "src/hatch_project",
-      "sourceRoot": "src/hatch_project/src",
+      "root": "hatch-project/src/hatch_project",
+      "sourceRoot": "hatch-project/src/hatch_project/src",
       "projectType": "application"
     }
   }
@@ -324,19 +324,49 @@ Your directory structure might look like this:
 
 ```
 /
-└── hatch-project/
-    └── src/
-        └── hatch_project/
-            ├── nx.json
-            ├── workspace.json
-            ├── tsconfig.base.json
-            ├── app1/
-            │   └── src/
-            │       └── main.tsx
-            ├── app2/
-            │   └── src/
-            │       └── main.tsx
+├── hatch-project/
+|    ├── tsconfig.base.json
+│    └── src/
+│        └── hatch_project/
+│            ├── REMOVE: nx.json
+│            ├── REMOVE: workspace.json
+│            ├── REMOVE: tsconfig.base.json
+│            ├── app1/
+│            │   └── src/
+│            │       └── main.tsx
+│            ├── app2/
+│            │   └── src/
+│            │       └── main.tsx
+├── nx.json
+├── workspace.json
 ```
+
+Where ```tsconfig.base.json``` contains:
+
+```
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "exclude": ["node_modules", "tmp"]
+}
+```
+/hatch-project/src/hatch_project/tsconfig.base.json
+
 
 ### Running Commands
 After setting up `workspace.json`, you can run commands like:
@@ -346,33 +376,24 @@ nx build app1
 nx build app2
 ```
 
-**Note**: `workspace.json` and `project.json` serve different purposes in an Nx workspace:
-
-### `workspace.json`
-- **Purpose**: It defines the overall structure of the Nx workspace.
-- **Content**: Contains configurations for all projects within the workspace, including their paths, types, and any shared settings.
-- **Usage**: Typically used in monorepos with multiple projects to manage and organize them centrally.
-
-### `project.json`
-- **Purpose**: It defines the configuration for an individual project within the workspace.
-- **Content**: Contains specific settings, targets (like build, test, lint), and options for that particular project.
-- **Usage**: Used when you want to modularize project configurations, allowing each project to have its own settings while still being part of the larger workspace.
-
-### Summary
-- **`workspace.json`**: Central configuration for the entire workspace.
-- **`project.json`**: Specific configuration for individual projects.
-
-In practice, you might use one or both depending on how you structure your Nx workspace. In newer versions of Nx, using `project.json` for individual projects is becoming more common.
-
 This structure will help Nx Cloud recognize and manage multiple applications effectively.
 
 This structure should allow Nx Cloud to detect the workspace properly.
 
-Run the command to **connect** your workspace to Nx Cloud from the root directory of the nx monorepo `hatch project`, specifically:
+Run the command to **connect** your workspace to Nx Cloud from the root of the repository, specifically:
 
 ```
-$ cd /hatch-project/src/hatch_project/
+$ cd /../../../
+$ npm init -y # If no package.json exists
+# Go through the initialization steps
+$ npm install -g nx@latest # If not already installed
+$ npm install --save-dev nx @nrwl/workspace
+$ npm install --save-dev @nx/webpack
+$ npm install --save-dev webpack-cli
+$ npm install --save-dev @nx/react @nx/eslint @nx/playwright @nx/jest
 ```
+
+Now commit these changes to GitHub repository before continuing!
 
 The command to connect to Nx Cloud is:
 
@@ -382,7 +403,43 @@ $ nx connect-to-nx-cloud
 
 This will initiate the configuration process for Nx Cloud within your workspace.
 
-Finish the CI setup by visiting: https://cloud.nx.app/connect/lvaFjW0bDV # **Note**: the URL will differ per creation. See [Enable GitHub PR Integration](https://nx.dev/ci/recipes/source-control-integration/github) and/or watch [PNPM-CI: Connect Your Workspace to Nx Cloud for Enhanced Collaboration](https://www.youtube.com/watch?v=8mqHXYIl_qI).
+You will be prompted as follows:
+
+```
+ NX   ✔ This workspace already has Nx Cloud set up
+
+If you have not done so already, connect your workspace to your Nx Cloud account with the following URL:
+
+https://cloud.nx.app/connect/Ehf8PFoDWR
+```
+
+Finish the CI setup by visiting: https://cloud.nx.app/connect/eXwFUcpdBt # **Note**: the URL will differ per creation. See [Enable GitHub PR Integration](https://nx.dev/ci/recipes/source-control-integration/github) and/or watch [PNPM-CI: Connect Your Workspace to Nx Cloud for Enhanced Collaboration](https://www.youtube.com/watch?v=8mqHXYIl_qI).
+
+
+The message "A workspace has already been assigned to this Nx Cloud connection" means that:
+
+1. Your workspace is already configured with an Nx Cloud ID
+2. That ID is already in use by another workspace
+
+To fix this:
+
+1. Check your current nx.json for the existing nxCloudId:
+  - Look for a line like: "nxCloudId": "67a3783761d0514ff26bf202"
+  - This ID needs to be unique for each workspace
+
+2. Generate a new connection:
+
+```
+$ nx generate @nx/workspace:disconnect-cloud
+$ nx connect-to-nx-cloud
+```
+
+This will:
+  - Remove the existing cloud connection
+  - Generate a new, unique connection
+  - Provide you with a fresh URL to connect
+
+
 
 ## Nested app directories
 
@@ -399,3 +456,15 @@ For example to ignore any files in ```.next```:
 ```
 .nxignore
 
+
+Now to run a build, run the following command from the root of the repository:
+
+```
+npx nx run-many -t build
+```
+
+To run a build for all applications, run the following command from the root of the repository:
+
+```
+npx nx run-many -t build --all
+```
