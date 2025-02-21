@@ -7,7 +7,7 @@ Repository-Namen
 -   [DNS](./DNS.md)
 -   [Dokumentation](./DOCUMENTATION.md)
 -   [Glossar](./GLOSSARY.md)
--   [Luke](./HATCH.md)
+-   [Hatch](./HATCH.md)
 -   [Gastgeber](./HOSTS.md)
 -   [Bilder](./IMAGES.md)
 -   [NX](./NX.md)
@@ -20,7 +20,7 @@ Repository-Namen
 
 Text
 
-Erzeugt mit[Ritr](https://app.rytr.me)
+Erzeugt mit[Rytr](https://app.rytr.me)
 
 ## 100 - Einführung
 
