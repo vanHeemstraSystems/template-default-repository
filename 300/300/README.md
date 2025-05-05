@@ -65,7 +65,7 @@ emotion           [ https://emotion.sh                       ]
 styled-jsx        [ https://www.npmjs.com/package/styled-jsx ]
 ```
 
-Highlight **tailwindcss** with the arrow keys and click ENTER.
+Highlight **tailwind** with the arrow keys and click ENTER.
 
 ```
 ? Which unit test runner would you like to use? ...
