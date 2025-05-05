@@ -76,6 +76,15 @@ None
 
 Highlight **Jest** with the arrow keys and click ENTER.
 
+? Would you like to use Prettier for code formatting? ...
+
+```
+Yes
+No
+```
+
+Highlight **Yes** with the arrow keys and click ENTER.
+
 ```
 ? Which CI provider would you like to use? ...
 GitHub Actions
