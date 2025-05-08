@@ -67,9 +67,34 @@ $ nx --version
 To update **nx**, run:
 
 ```
-$ cd hatch-project/src/hatch_project
+$ cd hatch-project/src/hatch_project # Note: go into the directory of nx.json
 $ npx nx migrate latest # if nx has not yet been installed
 $ nx migrate latest     # if nx has already been installed
+```
+
+You will be prompted alike:
+
+```
+Fetching meta data about packages.
+It may take a few minutes.
+Fetching nx@21.0.2
+Fetching @nx/eslint@21.0.2
+Fetching @nx/jest@21.0.2
+Fetching @nx/webpack@21.0.2
+Fetching @nx/react@21.0.2
+Fetching @nx/playwright@21.0.2
+
+ NX   The migrate command has run successfully.
+
+- package.json has been updated.
+- migrations.json has been generated.
+
+
+ NX   Next steps:
+
+- Make sure package.json changes make sense and then run 'npm install',
+- Run 'npx nx migrate --run-migrations'
+- To learn more go to https://nx.dev/features/automate-updating-dependencies
 ```
 
 Based on the provided repository structure and documentation, I'll help you run the Hatch project. The project appears to be set up as a React monorepo using Nx. Here are the steps to run it:
