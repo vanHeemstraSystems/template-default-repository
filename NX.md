@@ -344,8 +344,8 @@ module.exports = composePlugins(withNx(), (config) => {
 You can use the Nx generate command to create a new app in the ```hatch-project/src/hatch_project/apps``` directory. Here's how:
 
 ```
-$ cd /hatch-project/src/hatch_project
-$npx nx g @nx/react:app my-app --directory=apps/my-app
+$ cd hatch-project/src/hatch_project
+$ npx nx g @nx/react:app my-app --directory=apps/my-app
 ```
 
 Or if you want to create it from the root directory:
