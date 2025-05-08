@@ -255,7 +255,7 @@ Make sure you have a tsconfig.app.json file in your hatch-project/src/hatch_proj
 }
 ```
 
-Make sure you have a project.json file in your hatch-project/src/hatch_project directory. If not, create one:
+Make sure you have a project.json file in your hatch-project/src/hatch_project/apps/hatch_project directory. If not, create one:
 
 ```json
 {
