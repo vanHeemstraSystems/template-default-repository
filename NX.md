@@ -8,6 +8,54 @@ Install **Nx** (required for Nx Monorepos and Nx Cloud) globally as follows:
 $ npm add --global nx@latest
 ```
 
+If you are prompted that a newer version of Node is required, update Node to that newer version.
+
+To upgrade Node you may first want to see which version of Node.js you are currently using:
+
+```
+$ node --version
+```
+
+Find out which versions of Node.js you may have installed and which one of those you're currently using:
+
+```
+$ nvm ls
+```
+
+List all versions of Node.js available for installation:
+
+```
+$ nvm ls-remote
+```
+
+Apparently for Windows the command would be rather like this:
+
+```
+$ nvm ls available
+```
+
+Assuming you would pick Node.js v22.15.0 for installation you'd type the following to install that version:
+
+**Tip**: Choose a Long-Term Supported (LTS) version.
+
+```
+$ nvm install 22.15.0
+```
+
+You are then free to choose between installed versions of Node.js. So if you would need to use an older version like v20.18.1 you would set it as the active version like this:
+
+```
+$ nvm use 20.18.1
+```
+
+That should be all.
+
+Now that you have fulfilled the requirements of Node, again try to install nx:
+
+```
+$ npm add --global nx@latest
+```
+
 To use **nx** directly, you can now just use:
 
 ```
