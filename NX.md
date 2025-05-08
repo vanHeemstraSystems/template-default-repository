@@ -1,5 +1,7 @@
 # Nx
 
+**Warning**: Make sure you have completed [HATCH.md](./HATCH.md) before continuing.
+
 Based on "Installation" at https://nx.dev/getting-started/installation
 
 Install **Nx** (required for Nx Monorepos and Nx Cloud) globally as follows:
