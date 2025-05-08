@@ -328,7 +328,7 @@ Make sure you have a project.json file in your hatch-project/src/hatch_project d
 }
 ```
 
-Create a basic webpack.config.js file in your project:
+Create a basic webpack.config.js file in your hatch-project/src/hatch_project directory:
 
 ```javascript
 const { composePlugins, withNx } = require('@nx/webpack');
