@@ -97,6 +97,102 @@ Fetching @nx/playwright@21.0.2
 - To learn more go to https://nx.dev/features/automate-updating-dependencies
 ```
 
+Should you follow above recommended migration steps, you will be prompted as follows:
+
+```
+ NX   Running 'npm install' to make sure necessary packages are installed
+
+
+removed 83 packages, and audited 1098 packages in 5s
+
+167 packages are looking for funding
+  run `npm fund` for details
+
+11 moderate severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+ NX   Running migrations from 'migrations.json'
+
+Running the following migrations:
+- nx: remove-legacy-cache (Removes the legacy cache configuration from nx.json)
+- nx: remove-custom-tasks-runner (Removes the legacy cache configuration from nx.json)
+- @nx/jest: replace-getJestProjects-with-getJestProjectsAsync-v21 (Replace usage of `getJestProjects` with `getJestProjectsAsync`.)
+- @nx/jest: remove-tsconfig-option-from-jest-executor (Remove the previously deprecated and unused `tsConfig` option from the `@nx/jest:jest` executor.)
+- nx: release-version-config-changes (Updates release version config based on the breaking changes in Nx v21)
+- nx: release-changelog-config-changes (Updates release changelog config based on the breaking changes in Nx v21)
+- @nx/webpack: update-21-0-0-remove-isolated-config (Remove isolatedConfig option for @nx/webpack:webpack)
+- @nx/react: update-21-0-0-update-babel-loose (Replaces `classProperties.loose` option with `loose`.)
+---------------------------------------------------------
+
+Running migration nx: remove-legacy-cache
+Ran remove-legacy-cache from nx
+  Removes the legacy cache configuration from nx.json
+
+Changes:
+  UPDATE nx.json
+
+---------------------------------------------------------
+Running migration nx: remove-custom-tasks-runner
+Ran remove-custom-tasks-runner from nx
+  Removes the legacy cache configuration from nx.json
+
+No changes were made
+
+---------------------------------------------------------
+Running migration @nx/jest: replace-getJestProjects-with-getJestProjectsAsync-v21
+Ran replace-getJestProjects-with-getJestProjectsAsync-v21 from @nx/jest
+  Replace usage of `getJestProjects` with `getJestProjectsAsync`.
+
+No changes were made
+
+---------------------------------------------------------
+Running migration @nx/jest: remove-tsconfig-option-from-jest-executor
+Ran remove-tsconfig-option-from-jest-executor from @nx/jest
+  Remove the previously deprecated and unused `tsConfig` option from the `@nx/jest:jest` executor.
+
+No changes were made
+
+---------------------------------------------------------
+Running migration nx: release-version-config-changes
+Ran release-version-config-changes from nx
+  Updates release version config based on the breaking changes in Nx v21
+
+No changes were made
+
+---------------------------------------------------------
+Running migration nx: release-changelog-config-changes
+Ran release-changelog-config-changes from nx
+  Updates release changelog config based on the breaking changes in Nx v21
+
+No changes were made
+
+---------------------------------------------------------
+Running migration @nx/webpack: update-21-0-0-remove-isolated-config
+Ran update-21-0-0-remove-isolated-config from @nx/webpack
+  Remove isolatedConfig option for @nx/webpack:webpack
+
+No changes were made
+
+---------------------------------------------------------
+Running migration @nx/react: update-21-0-0-update-babel-loose
+Ran update-21-0-0-update-babel-loose from @nx/react
+  Replaces `classProperties.loose` option with `loose`.
+
+No changes were made
+
+---------------------------------------------------------
+
+ NX   Successfully finished running migrations from 'migrations.json'. This workspace is up to date!
+
+```
+
 Based on the provided repository structure and documentation, I'll help you run the Hatch project. The project appears to be set up as a React monorepo using Nx. Here are the steps to run it:
 
 
