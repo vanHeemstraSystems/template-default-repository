@@ -341,7 +341,7 @@ module.exports = composePlugins(withNx(), (config) => {
 });
 ```
 
-You can use the Nx generate command to create a new app in the ```hatch-project/src/hatch_project/apps``` directory. Here's how:
+You can use the Nx generate command to create a new app (here: ```my-app```) in the ```hatch-project/src/hatch_project/apps``` directory. Here's how:
 
 ```
 $ cd hatch-project/src/hatch_project
