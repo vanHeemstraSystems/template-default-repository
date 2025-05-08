@@ -354,6 +354,69 @@ Or if you want to create it from the root directory:
 $ npx nx g @nx/react:app my-app --directory=hatch-project/src/hatch_project/apps/my-app
 ```
 
+You will be prompted as follows:
+
+```
+ NX  Generating @nx/react:application
+
+? Would you like to add routing to this application? (y/N) › false
+```
+
+For now, type **y** for yes followed by Enter.
+
+```
+? What unit test runner should be used? … 
+vitest
+jest
+none
+```
+
+Use the arrow keys to select **jest** followed by Enter.
+
+```
+? Which E2E test runner would you like to use? … 
+playwright
+cypress
+none
+```
+
+Use the arrow keys to select **playwright** followed by Enter.
+
+```
+CREATE hatch-project/src/hatch_project/apps/my_app/src/app/app.spec.tsx
+CREATE hatch-project/src/hatch_project/apps/my_app/src/assets/.gitkeep
+CREATE hatch-project/src/hatch_project/apps/my_app/src/favicon.ico
+CREATE hatch-project/src/hatch_project/apps/my_app/src/index.html
+CREATE hatch-project/src/hatch_project/apps/my_app/src/main.tsx
+CREATE hatch-project/src/hatch_project/apps/my_app/tsconfig.app.json
+CREATE hatch-project/src/hatch_project/apps/my_app/webpack.config.js
+CREATE hatch-project/src/hatch_project/apps/my_app/.babelrc
+CREATE hatch-project/src/hatch_project/apps/my_app/src/app/nx-welcome.tsx
+CREATE hatch-project/src/hatch_project/apps/my_app/src/app/app.tsx
+CREATE hatch-project/src/hatch_project/apps/my_app/src/styles.css
+CREATE hatch-project/src/hatch_project/apps/my_app/tsconfig.json
+CREATE hatch-project/src/hatch_project/apps/my_app/project.json
+CREATE hatch-project/src/hatch_project/apps/my_app/postcss.config.js
+CREATE hatch-project/src/hatch_project/apps/my_app/tailwind.config.js
+CREATE hatch-project/src/hatch_project/apps/my_app/eslint.config.mjs
+CREATE hatch-project/src/hatch_project/apps/my_app-e2e/project.json
+CREATE hatch-project/src/hatch_project/apps/my_app-e2e/src/example.spec.ts
+CREATE hatch-project/src/hatch_project/apps/my_app-e2e/playwright.config.ts
+CREATE hatch-project/src/hatch_project/apps/my_app-e2e/tsconfig.json
+CREATE hatch-project/src/hatch_project/apps/my_app-e2e/eslint.config.mjs
+CREATE hatch-project/src/hatch_project/apps/my_app/tsconfig.spec.json
+CREATE hatch-project/src/hatch_project/apps/my_app/jest.config.ts
+
+ NX   Ensuring Playwright is installed.
+
+use --skipInstall to skip installation.
+
+
+ NX   👀 View Details of my_app
+
+Run "nx show project my_app" to view details about this project.
+```
+
 This will:
 - Create a new React application with all necessary files
 - Set up the proper directory structure
