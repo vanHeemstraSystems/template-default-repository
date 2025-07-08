@@ -36,4 +36,6 @@ See [README.md](./500/README.md)
 
 ## 600 - Kanban
 
+See [README.md](./600/README.md)
+
 MORE ...
