@@ -19,3 +19,12 @@ backlog browser --port 8080
 ```
 backlog browser --no-open
 ```
+
+The web interface provides:
+
+- Interactive Kanban board with drag-and-drop functionality
+- Task creation and editing with rich forms and validation
+- Real-time updates as you manage tasks
+- Responsive design that works on desktop and mobile
+- Archive tasks with confirmation dialogs
+- Seamless CLI integration - changes sync with your markdown files
