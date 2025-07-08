@@ -1,12 +1,12 @@
 # 100 - Five Minute Tour
 
-# Make sure you have Backlog.md installed
+## Make sure you have Backlog.md installed
 
 ```
 npm i -g backlog.md
 ```
 
-# 1. Bootstrap a repo + backlog 
+## 1. Bootstrap a repo + backlog 
 
 **Note**: Replace ```repository-name``` with the name of the current repository.
 
@@ -14,13 +14,13 @@ npm i -g backlog.md
 backlog init repository-name
 ```
 
-# 2. Capture work
+## 2. Capture work
 
 ```
 backlog task create "Title of an example task"
 ```
 
-# 3. See where you stand
+## 3. See where you stand
 
 ```
 backlog board view
