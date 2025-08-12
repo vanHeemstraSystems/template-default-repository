@@ -1,17 +1,26 @@
 ---
-module-name: "codebase-context-spec"
-description: "Core specification for the Codebase Context standard"
+module-name: "[PROJECT NAME]"
+description: "[PROJECT DESCRIPTION]"
 version: "1.1.0-RFC"
 technologies:
   - "Markdown"
 related-modules:
-  - name: "@codebase-context/cc-cli"
-    description: "Official CLI tool for working with CCS"
-    repository: "https://www.npmjs.com/package/@codebase-context/cc-cli"
+  - name: "[SIMPLE PROJECT ROOT]"
+    path: [PATH]
+    description: "[DESCRIPTION]"
+    repository: "[REPOSITORY]"
+architecture:
+  style: "[ARCHITECTURE STYLE]"
+  components:
+    - name: "[COMPONENT NAME]"
+      description: "[COMPONENT DESCRIPTION]"
+  patterns:
+    - name: "[PATTERN NAME]"
+      usage: "[PATTERN USAGE DESCRIPTION]" 
 status: "active"
 ---
 
-# Codebase Context Specification Repository
+# [REPOSITORY TITLE]
 
 This repository contains [REPOSITORY CONTENT]. It is [DESCRIPTION].
 
