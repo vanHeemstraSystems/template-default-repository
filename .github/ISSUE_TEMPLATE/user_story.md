@@ -1,16 +1,3 @@
-# Microservice User Story Template
-
-## GitHub Issue Template: Service User Story
-
-Use this template when creating user stories in your microservice repositories (nfc-management, messaging-management, game-engine, etc.).
-
------
-
-## Template: Service User Story
-
-**File**: `.github/ISSUE_TEMPLATE/user-story.md`
-
-```markdown
 ---
 name: User Story
 about: Create a user story for this microservice
@@ -411,29 +398,3 @@ graph LR
 - **Output Events**: [Types of events produced]
 
 ```
----
-
-## Usage Instructions
-
-### 1. Set Up Templates in Each Service Repository
-
-```bash
-# In each microservice repository (e.g., nfc-management) mkdir -p .github/ISSUE_TEMPLATE
-
-# Add the appropriate service-specific template # Customize the labels and title format for each service ```
-
-### 2. Creating a New User Story
-
-1. **Start from the Epic** in `project-management` 1. **Identify the service** that needs to implement functionality 1. **Create issue in service repository** using the template 1. **Link back to epic** using the Epic field 1. **Coordinate dependencies** with other service teams
-
-### 3. Cross-Repository Linking Pattern
-
-```markdown
-# Epic in project-management#12
-### nfc-management
-- [ ] [NFC-001] Implement NFC tag detection - nfc-management#15
-
-# Story in nfc-management#15
-**Epic**: project-management#12 - Physical Game Infrastructure **Outbound Dependencies**: messaging-management#8 ```
-
-This template system creates perfect coordination between your strategic roadmap and service-specific implementation work!
