@@ -1,3 +1,5 @@
+[![Quarto Publish](https://github.com/vanHeemstraSystems/REPOSITORY-NAME/actions/workflows/publish.yml/badge.svg)](https://github.com/vanHeemstraSystems/REPOSITORY-NAME/actions/workflows/publish.yml)
+
 repository-name
 # Repository Name
 
