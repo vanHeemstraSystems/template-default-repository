@@ -16,7 +16,21 @@ Why I stick with them: When they work, they work better than anything else. Cont
 
 - [Augment (a better Cursor)](https://augmentcode.com): AI-enabled Integrated Development Environment
 
+My $50/month insurance policy turned daily tool. Augment Code is fast, reliable, particularly effective for focused troubleshooting sessions where I need quick, targeted solutions rather than comprehensive analysis.
+
+The remote agents feature has become unexpectedly useful — I can queue up documentation tasks or code cleanup while my laptop is closed or I'm in meetings. Not some massive productivity boost, but consistently useful.
+
+When I reach for it: Quick debugging sessions, remote work when I can't keep the laptop running, sanity check when Claude Code responses feel off.
+
 ### Claude.AI (Web + Desktop)
+
+My day starts and ends here. Morning routine involves research, planning, workflow integration with Linear. Evening winds down with notes consolidation, often pulling in recordings from Granola to create actionable summaries.
+
+The Claude.AI desktop app stays available for those "quick question" moments that inevitably turn into deeper strategy discussions. I find myself using it for meta-thinking about projects—not just execution, but planning the execution.
+
+Daily pattern: Research and planning in the morning, integration work throughout the day, synthesis and notes in the evening.
+
+== IMAGE GOES HERE ==
 
 ### Warp Terminal
 
