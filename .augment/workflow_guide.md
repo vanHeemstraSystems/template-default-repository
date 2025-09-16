@@ -68,5 +68,5 @@ chore/update-deps
 
 Capture important architectural decisions as ```type:decision issues```.
 
-- Title format: 📌 Decision: Move to Mastra
+- Title format: 📌 ```Decision: Move to Mastra```
 - Rationale and trade-offs should be added in comments
