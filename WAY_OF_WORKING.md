@@ -1,6 +1,6 @@
 # Way of Working
 
-## Goals:
+## Goals
 
 - Feature branches tied to specific issues with clear naming conventions.
 - Commits that follow Conventional Commits format.
@@ -15,3 +15,7 @@
 > AI agents are great at maintaining narrative discipline. They don't get tired, they don't skip steps, and they don't need calendar invites to stay aligned.
 
 - [Training Your AI to Master Git & GitHub: The How-To Guide](https://hyperdev.matsuoka.com/p/how-i-trained-augment-code-to-run)
+
+## Augment Workflow Guide
+
+See [Augment Workflow Guide](https://github.com/vanHeemstraSystems/template-default-repository/.augment/workflow_guide.md)
