@@ -45,3 +45,7 @@ You need it to maintain the narrative around your code—with consistency, struc
 - Explain the "why" behind conventions.
 - Let it own the narrative maintenance.
 - Step in when high-impact decisions are needed.
+
+## References
+
+This article is part of our "[From the Trenches](https://hyperdev.substack.com/s/from-the-trenches)" series, featuring practical implementations of AI-powered development workflows. For more hands-on guides, check our archives.
