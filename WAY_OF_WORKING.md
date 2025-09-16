@@ -22,9 +22,14 @@ See [Augment Workflow Guide](https://github.com/vanHeemstraSystems/template-defa
 
 When implementing this yourself, note that:
 
-- You'll need a GitHub personal access token with appropriate permissions
-- Your AI assistant needs to understand API integration concepts
-- It helps to provide specific API endpoint references for GitHub
+- You'll need a GitHub personal access token with appropriate permissions.
+- Your AI assistant needs to understand API integration concepts.
+- It helps to provide specific API endpoint references for GitHub.
+- **Context window limits**: Your reference guide needs to fit within your AI's context window alongside actual work.
+- **Technical prerequisites**: Your AI needs access to Git CLI commands and (optionally) GitHub's API.
+- **Training approach**: Provide comprehensive documentation, not just isolated prompts.
+- **Tool selection**: I've tested this with both Augment and Claude Code with similar results.
+- **Iteration period**: Expect 1-2 weeks of refinement as you clarify instructions.
 
 ### Example Usage:
 
