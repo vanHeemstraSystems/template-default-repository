@@ -3,9 +3,9 @@
 ## Goals:
 
 - Feature branches tied to specific issues with clear naming conventions
-- Commits that followed Conventional Commits format
+- Commits that follow Conventional Commits format
 - GitHub issues structured with proper taxonomies and clear acceptance criteria
-- PRs that told a coherent story of what changed and why
+- PRs that tell a coherent story of what changed and why
 - Zero drift between code changes and their documentation
 
 > Augment writes better tickets and manages Git better than I ever did.
