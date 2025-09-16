@@ -25,3 +25,7 @@ When implementing this yourself, note that:
 - You'll need a GitHub personal access token with appropriate permissions
 - Your AI assistant needs to understand API integration concepts
 - It helps to provide specific API endpoint references for GitHub
+
+### Example Usage:
+
+When you tell Augment "Create a decision log about our choice to use Firebase Auth," it drafts a comprehensive decision record that captures your rationale, alternatives considered, and implementation implications—all tagged properly as a decision issue.
