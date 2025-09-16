@@ -6,6 +6,11 @@
 
 ### Claude Code & Claude MPM
 
+Despite [Anthropic](https://anthropic.com/)'s recent hiccups with rate limiting and service stability, these remain the backbone of my development workflow. [Claude Code](https://claude.ai/code) handles the heavy lifting—complex refactoring, architectural discussions, multi-file changes that require deep context understanding.
+
+[Claude MPM](https://github.com/bobmatnyc/claude-mpm) (Robert (Masa) Matsuoka - aka bobmatnyc - own orchestration framework) comes into play for larger projects where coordination between multiple agents provides better results than single-threaded development. Gives me both direct control and systematic automation.
+
+Why I stick with them: When they work, they work better than anything else. Context window, reasoning quality, and code understanding remain unmatched. But I've learned to have backups ready.
 
 ### Augment Code
 
