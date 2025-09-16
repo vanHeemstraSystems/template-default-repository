@@ -26,7 +26,7 @@ When I reach for it: Quick debugging sessions, remote work when I can't keep the
 
 My day starts and ends here. Morning routine involves research, planning, workflow integration with Linear. Evening winds down with notes consolidation, often pulling in recordings from Granola to create actionable summaries.
 
-The Claude.AI desktop app stays available for those "quick question" moments that inevitably turn into deeper strategy discussions. I find myself using it for meta-thinking about projects—not just execution, but planning the execution.
+The [Claude.AI](https://claude.ai/) desktop app stays available for those "quick question" moments that inevitably turn into deeper strategy discussions. I find myself using it for meta-thinking about projects—not just execution, but planning the execution.
 
 Daily pattern: Research and planning in the morning, integration work throughout the day, synthesis and notes in the evening.
 
