@@ -41,7 +41,7 @@ You don't need AI to write your code. (Though it should help with the first 70%)
 
 You need it to maintain the narrative around your code—with consistency, structure, and purpose. You don't have to build a custom toolchain. You just need to treat your agent like a real team member:
 
-- Provide comprehensive process documentation
-- Explain the "why" behind conventions
-- Let it own the narrative maintenance
-- Step in when high-impact decisions are needed
+- Provide comprehensive process documentation, see [Augment Workflow Guide](https://github.com/vanHeemstraSystems/template-default-repository/.augment/workflow_guide.md).
+- Explain the "why" behind conventions.
+- Let it own the narrative maintenance.
+- Step in when high-impact decisions are needed.
