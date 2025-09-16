@@ -18,6 +18,7 @@ repository-name
 - [Requirements](./REQUIREMENTS.md)
 - [Telemetry](./TELEMETRY.md)
 - [Tooling](./TOOLING.md)
+- [Way of Working](./WAY_OF_WORKING.md)
 
 **Executive Summary**
 
