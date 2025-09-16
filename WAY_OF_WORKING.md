@@ -19,3 +19,9 @@
 ## Augment Workflow Guide
 
 See [Augment Workflow Guide](https://github.com/vanHeemstraSystems/template-default-repository/.augment/workflow_guide.md), provide this guide to Augment.
+
+When implementing this yourself, note that:
+
+- You'll need a GitHub personal access token with appropriate permissions
+- Your AI assistant needs to understand API integration concepts
+- It helps to provide specific API endpoint references for GitHub
