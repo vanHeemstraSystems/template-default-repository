@@ -30,7 +30,7 @@ The [Claude.AI](https://claude.ai/) desktop app stays available for those "quick
 
 Daily pattern: Research and planning in the morning, integration work throughout the day, synthesis and notes in the evening.
 
-== IMAGE GOES HERE ==
+<img width="1488" height="653" alt="Image" src="https://github.com/user-attachments/assets/31d34b12-5dbc-47ef-820d-8e8f2c01ec4b" />
 
 ### Warp Terminal
 
