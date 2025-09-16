@@ -6,3 +6,5 @@
 - [Spec Kit](https://github.com/vanHeemstraSystems/spec-kit)
 - [Using AI as my Engineering Copilot not Autopilot](https://depot.dev/blog/using-ai-as-my-engineering-copilot-not-autopilot)
 - [Quickstart for remote Claude Code agents on Depot](https://depot.dev/docs/agents/claude-code/quickstart)
+- [SolidJS on GitHub](https://github.com/solidjs/solid)
+- [SolidJS](https://solidjs.com/)
