@@ -18,4 +18,4 @@
 
 ## Augment Workflow Guide
 
-See [Augment Workflow Guide](https://github.com/vanHeemstraSystems/template-default-repository/.augment/workflow_guide.md)
+See [Augment Workflow Guide](https://github.com/vanHeemstraSystems/template-default-repository/.augment/workflow_guide.md), provide this guide to Augment.
