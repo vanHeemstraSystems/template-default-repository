@@ -63,3 +63,10 @@ chore/update-deps
 | Type | type: | type:bug, type:feature, type:chore |
 
 *Use emojis in titles for quick scan: 🧠, 🐛, 🚀, 📌, etc.*
+
+## 📌 Decision Logs
+
+Capture important architectural decisions as type:decision issues.
+
+- Title format: 📌 Decision: Move to Mastra
+- Rationale and trade-offs should be added in comments
