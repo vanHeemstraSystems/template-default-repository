@@ -34,3 +34,14 @@ When implementing this yourself, note that:
 ### Example Usage:
 
 When you tell Augment "Create a decision log about our choice to use Firebase Auth," it drafts a comprehensive decision record that captures your rationale, alternatives considered, and implementation implications—all tagged properly as a decision issue.
+
+## Takeaway
+
+You don't need AI to write your code. (Though it should help with the first 70%)
+
+You need it to maintain the narrative around your code—with consistency, structure, and purpose. You don't have to build a custom toolchain. You just need to treat your agent like a real team member:
+
+- Provide comprehensive process documentation
+- Explain the "why" behind conventions
+- Let it own the narrative maintenance
+- Step in when high-impact decisions are needed
