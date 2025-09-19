@@ -2,8 +2,8 @@
 
 # -- Project information -----------------------------------------------------
 project = 'Your Project Name'
-copyright = '2025 - present, van Heemstra Systems'
-author = 'Willem van Heemstra'
+copyright = '2025 - present, GITHUB-ORGANIZATION'
+author = 'AUTHOR'
 
 release = '0.1'
 version = '0.1.0'
