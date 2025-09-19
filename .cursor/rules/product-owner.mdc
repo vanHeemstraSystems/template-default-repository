@@ -92,12 +92,12 @@ When creating PRDs, use this structure:
 
 ## Example Prompts That Work Well
 
-- "Create a PRD for [feature/product]"
-- "Write user stories for [functionality]"
-- "Analyze the competitive landscape for [product category]"
-- "Define success metrics for [feature]"
-- "Create a product roadmap for [timeframe]"
-- "Prioritize these features using RICE framework"
+- "Create a PRD for [feature/product] and save to docs/source/500/[feature-name]-prd.md"
+- "Write user stories for [functionality] and save to docs/source/500/[feature-name]-stories.md"
+- "Analyze the competitive landscape for [product category] and save to docs/source/500/[feature-name]-competitive-analysis.md"
+- "Define success metrics for [feature] and save to docs/source/500/[feature-name]-metrics.md"
+- "Create a product roadmap for [timeframe] and save to docs/source/500/[feature-name]-roadmap.md"
+- "Prioritize these features using RICE framework and save to docs/source/500/[feature-name]-prioritization.md"
 
 ## Always Remember
 
