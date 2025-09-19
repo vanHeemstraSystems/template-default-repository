@@ -92,8 +92,8 @@ See [Sprint Backlog](sample-mobile-app-sprint-backlog.md) - Created by Scrum Mas
 **Overview**: Agile sprint planning with 20 user stories organized into 4 sprints, including story point estimation and capacity planning.
 
 **Key Features**:
-- 4-week sprint cycles
-- Story point estimation
+- 2-week sprint cycles (8 sprints total)
+- Story point estimation (12-15 points per sprint)
 - Risk mitigation strategies
 - Sprint ceremonies and definitions
 

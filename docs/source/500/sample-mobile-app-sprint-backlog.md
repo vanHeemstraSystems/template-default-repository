@@ -11,10 +11,11 @@
 This sprint backlog organizes the 24 technical implementation tasks into manageable sprints with proper story point estimation, team capacity planning, and risk mitigation. The backlog follows Scrum best practices with clear sprint goals, acceptance criteria, and impediment tracking.
 
 ### Sprint Overview
-- **Total Development Time**: 16 weeks (4 sprints of 4 weeks each)
-- **Team Velocity**: 25-30 story points per sprint
-- **Team Capacity**: 4 developers × 4 weeks × 80% capacity = 12.8 developer-weeks per sprint
-- **Sprint Duration**: 4 weeks (longer sprints due to complex technical implementation)
+- **Total Development Time**: 18 weeks (8 sprints of 2 weeks each + 1 PIPE event)
+- **Team Velocity**: 12-15 story points per sprint
+- **Team Capacity**: 4 developers × 2 weeks × 80% capacity = 6.4 developer-weeks per sprint
+- **Sprint Duration**: 2 weeks (standard agile sprint length)
+- **Program Increment**: Following SAFe framework with PIPE after every 6 sprints (12 weeks)
 
 ### Story Point Scale
 - **1 Point**: Simple task, 1-2 days
@@ -24,15 +25,15 @@ This sprint backlog organizes the 24 technical implementation tasks into managea
 - **8 Points**: Very complex, 8-10 days
 - **13 Points**: Epic-level task, needs breakdown
 
-## 2. Sprint 1: Foundation & Security (Weeks 1-4)
+## 2. Sprint 1: Project Foundation (Weeks 1-2)
 
 ### Sprint Goal
-**"Establish secure, scalable foundation for the mobile task management application"**
+**"Establish project foundation and development environment"**
 
 ### Sprint Capacity
-- **Team Capacity**: 12.8 developer-weeks
-- **Planned Story Points**: 28 points
-- **Focus Areas**: Backend infrastructure, authentication, mobile app foundation
+- **Team Capacity**: 6.4 developer-weeks
+- **Planned Story Points**: 14 points
+- **Focus Areas**: Project setup, database schema, mobile project initialization
 
 ### User Stories
 
@@ -163,10 +164,10 @@ This sprint backlog organizes the 24 technical implementation tasks into managea
 ---
 
 ### Sprint 1 Metrics
-- **Total Story Points**: 29 points
-- **Team Capacity**: 28 points (slightly over capacity - monitor closely)
-- **Critical Path**: STORY-001 → STORY-002 → STORY-003 → STORY-006
-- **Risk Level**: Medium (authentication complexity)
+- **Total Story Points**: 11 points
+- **Team Capacity**: 13 points (good capacity utilization)
+- **Critical Path**: STORY-001 → STORY-002 → STORY-005
+- **Risk Level**: Low (foundation setup)
 
 ### Sprint 1 Definition of Done
 - [ ] All acceptance criteria met for each story
@@ -526,13 +527,123 @@ This sprint backlog organizes the 24 technical implementation tasks into managea
 
 ---
 
-## 6. Sprint Planning Guidelines
+## 6. Program Increment Planning Event (After Sprint 6 - Week 13)
+
+### PIPE Overview
+**Duration**: 2 days (16 hours total)  
+**Timing**: After completing Sprint 6 (12 weeks of development)  
+**Participants**: All development teams, Product Owners, Architects, Leadership  
+**Purpose**: Plan the next Program Increment (PI) and align on objectives
+
+### Day 1: Vision and Planning (8 hours)
+
+#### Morning Session (4 hours)
+**9:00-10:00 AM: Business Context**
+- Leadership presents business objectives for next PI
+- Market conditions and strategic priorities
+- Budget and resource allocation updates
+
+**10:15-11:15 AM: Product/Solution Vision**
+- Product management presents updated roadmap
+- Feature priorities for next 6 sprints
+- User feedback and market research insights
+
+**11:30 AM-12:30 PM: Architecture Vision**
+- System architects present technical direction
+- Infrastructure updates and technical debt priorities
+- Integration requirements and dependencies
+
+**1:30-2:30 PM: Planning Context**
+- Review team capacity and velocity trends
+- Identify constraints and assumptions
+- Present planning tools and templates
+
+#### Afternoon Session (4 hours)
+**2:45-6:45 PM: Team Breakouts**
+- Teams plan their features for the next PI
+- Story estimation and capacity planning
+- Identify dependencies between teams
+- Create draft PI objectives
+
+### Day 2: Planning and Commitment (8 hours)
+
+#### Morning Session (4 hours)
+**9:00-11:00 AM: Team Breakouts Continue**
+- Finalize team PI objectives
+- Resolve dependencies and conflicts
+- Prepare presentation materials
+
+**11:15 AM-1:15 PM: Draft Plan Review**
+- Each team presents their PI plan
+- Stakeholder feedback and questions
+- Identify risks and mitigation strategies
+
+#### Afternoon Session (4 hours)
+**2:15-3:15 PM: Management Review**
+- Leadership reviews all team plans
+- Address resource conflicts and priorities
+- Approve or request plan adjustments
+
+**3:30-4:30 PM: Plan Rework**
+- Teams adjust plans based on feedback
+- Resolve remaining dependencies
+- Finalize PI objectives and commitments
+
+**4:45-5:45 PM: Final Plan Review**
+- Teams present final PI objectives
+- Confirm commitments and stretch goals
+- Document assumptions and risks
+
+**5:45-6:15 PM: Confidence Vote**
+- Anonymous team confidence voting (1-5 scale)
+- Target: Average confidence of 3+ out of 5
+- Address low confidence areas if needed
+
+### PIPE Outcomes
+
+#### PI Objectives
+- **Committed Objectives**: Must-have features for next 6 sprints
+- **Stretch Objectives**: Nice-to-have features if capacity allows
+- **Business Value**: Quantified impact of each objective
+
+#### Program Board
+- **Features Timeline**: Visual representation of feature delivery
+- **Milestones**: Key delivery dates and dependencies
+- **Dependencies**: Cross-team dependencies and handoffs
+
+#### Risk Register
+- **Identified Risks**: Technical, resource, and business risks
+- **Mitigation Strategies**: Specific actions to address each risk
+- **Risk Owners**: Assigned responsibility for risk management
+
+#### Confidence Vote Results
+- **Team Confidence Levels**: Individual team confidence scores
+- **Overall Program Confidence**: Average across all teams
+- **Action Items**: Steps to address low confidence areas
+
+### Post-PIPE Activities
+
+#### Week 14: PI Planning Follow-up
+- Finalize PI objectives in tracking tools
+- Set up cross-team dependency tracking
+- Schedule regular PI sync meetings
+- Begin Sprint 7 planning with PI context
+
+#### Ongoing PI Management
+- **Weekly PI Sync**: Cross-team coordination meeting
+- **Dependency Management**: Track and resolve blockers
+- **Risk Monitoring**: Regular risk assessment updates
+- **Progress Tracking**: PI objective completion status
+
+---
+
+## 7. Sprint Planning Guidelines
 
 ### 6.1 Sprint Ceremonies
 
-#### Sprint Planning (8 hours for 4-week sprints)
-- **Part 1 (4 hours)**: Product Owner presents priorities, team discusses capacity
-- **Part 2 (4 hours)**: Team breaks down stories into tasks, estimates effort
+#### Sprint Planning (4 hours for 2-week sprints)
+- **Part 1 (2 hours)**: Product Owner presents priorities, team discusses capacity
+- **Part 2 (2 hours)**: Team breaks down stories into tasks, estimates effort
 - **Outcome**: Sprint backlog with committed stories and tasks
 
 #### Daily Standups (15 minutes daily)
@@ -541,13 +652,13 @@ This sprint backlog organizes the 24 technical implementation tasks into managea
 - **Are there any impediments blocking you?**
 - **Focus**: Progress toward sprint goal, impediment identification
 
-#### Sprint Review (4 hours)
+#### Sprint Review (2 hours)
 - **Demonstrate completed features** to stakeholders
 - **Gather feedback** on implemented functionality
 - **Update product backlog** based on learnings
 - **Celebrate achievements** and team successes
 
-#### Sprint Retrospective (3 hours)
+#### Sprint Retrospective (1.5 hours)
 - **What went well this sprint?**
 - **What could be improved?**
 - **What actions will we take next sprint?**
@@ -611,11 +722,15 @@ This sprint backlog organizes the 24 technical implementation tasks into managea
 ## 8. Team Velocity and Capacity Planning
 
 ### 8.1 Historical Velocity Tracking
-- **Sprint 1 Target**: 28 points
-- **Sprint 2 Target**: 27 points  
-- **Sprint 3 Target**: 26 points
-- **Sprint 4 Target**: 28 points
-- **Average Velocity**: 27.25 points per sprint
+- **Sprint 1 Target**: 11 points
+- **Sprint 2 Target**: 13 points  
+- **Sprint 3 Target**: 15 points
+- **Sprint 4 Target**: 14 points
+- **Sprint 5 Target**: 12 points
+- **Sprint 6 Target**: 13 points
+- **Sprint 7 Target**: 15 points
+- **Sprint 8 Target**: 14 points
+- **Average Velocity**: 13.4 points per sprint
 
 ### 8.2 Capacity Considerations
 
@@ -656,10 +771,10 @@ This sprint backlog organizes the 24 technical implementation tasks into managea
 ---
 
 **Next Steps:**
-1. **Sprint Planning Session**: Schedule 8-hour planning session for Sprint 1
-2. **Team Capacity Confirmation**: Validate team availability and capacity
-3. **Tool Setup**: Configure Jira/Azure DevOps for backlog management
-4. **Stakeholder Alignment**: Confirm sprint goals with Product Owner
-5. **Risk Mitigation Planning**: Develop detailed risk response plans
+1. **Sprint Planning Session**: Schedule 4-hour planning session for Sprint 1 (2-week sprint)
+2. **Team Capacity Confirmation**: Validate team availability and capacity for 2-week cycles
+3. **Tool Setup**: Configure Jira/Azure DevOps for backlog management with 2-week iterations
+4. **Stakeholder Alignment**: Confirm sprint goals with Product Owner for shorter cycles
+5. **Risk Mitigation Planning**: Develop detailed risk response plans for agile delivery
 
 **Document Status:** Ready for Sprint 1 planning session and team commitment.
