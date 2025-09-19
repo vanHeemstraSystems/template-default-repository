@@ -50,7 +50,7 @@ You can also download a binary from the [releases](https://github.com/maaslalani
 
 ### Usage
 
-Use the pre-made markdown file in ```.slides/slides.md ```, or create a simple markdown file that contains your slides:
+Use the pre-made markdown file in ```.slides/slides.md ``` or create a simple markdown file that contains your slides:
 
 ````markdown
 # Welcome to Slides
