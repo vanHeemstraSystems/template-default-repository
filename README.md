@@ -16,6 +16,7 @@ repository-name
 - [Podman](./PODMAN.md)
 - [References](./REFERENCES.md)
 - [Requirements](./REQUIREMENTS.md)
+- [Slides](./SLIDES.md)
 - [Telemetry](./TELEMETRY.md)
 - [Tooling](./TOOLING.md)
 - [Way of Working](./WAY_OF_WORKING.md)
