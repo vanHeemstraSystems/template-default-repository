@@ -4,6 +4,7 @@
 - [Claude MPM User Documentation](https://github.com/vanHeemstraSystems/claude-mpm/tree/main/docs/user)
 - [Quickstart for remote Claude Code agents on Depot](https://depot.dev/docs/agents/claude-code/quickstart)
 - [RepoToText](https://github.com/GeekyGhost/RepoToText)
+- [Slides](https://github.com/maaslalani/slides)
 - [SolidJS on GitHub](https://github.com/solidjs/solid)
 - [SolidJS](https://solidjs.com/)
 - [Spec Kit](https://github.com/vanHeemstraSystems/spec-kit)
