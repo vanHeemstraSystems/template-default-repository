@@ -13,6 +13,7 @@ repository-name
 - [Hosts](./HOSTS.md)
 - [Images](./IMAGES.md)
 - [Nx](./NX.md)
+- [Personas](./PERSONAS.md)
 - [Podman](./PODMAN.md)
 - [References](./REFERENCES.md)
 - [Requirements](./REQUIREMENTS.md)
