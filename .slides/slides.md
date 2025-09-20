@@ -1,5 +1,5 @@
 # Welcome to Slides
-A terminal based presentation tool
+A terminal based presentation tool.
 
 ---
 
