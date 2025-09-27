@@ -9,3 +9,4 @@
 - [SolidJS](https://solidjs.com/)
 - [Spec Kit](https://github.com/vanHeemstraSystems/spec-kit)
 - [Using AI as my Engineering Copilot not Autopilot](https://depot.dev/blog/using-ai-as-my-engineering-copilot-not-autopilot)
+- [Architecting Intelligent Software: Crafting Robust and Scalable AI Systems for Modern Software Development](https://www.packtpub.com/en-us/product/architecting-intelligent-software-9781804619469)
