@@ -5,6 +5,7 @@ repository-name
 
 > Slugline
 
+- [Architecture](./ARCHITECTURE.md)
 - [DNS](./DNS.md)
 - [Documentation](./DOCUMENTATION.md)
 - [Frameworks](./FRAMEWORKS.md)
