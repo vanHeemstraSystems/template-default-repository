@@ -1,5 +1,7 @@
 # Documentation
 
+**Tip**: Use https://deepwiki.com/GITHUB-ORGANIZATION-NAME/REPOSITORY-NAME to have Artificial Intelligence automatically document the GitHub repository for you.
+
 Read the Docs: [GITHUB-ORGANIZATION-REPOSITORY-NAME](https://GITHUB-ORGANIZATION-REPOSITORY-NAME.readthedocs.io/en/latest/)
 
 ## 100 - Install ReadTheDocs
