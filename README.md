@@ -1,5 +1,7 @@
 [![Quarto Publish](https://github.com/GITHUB-ORGANIZATION/REPOSITORY-NAME/actions/workflows/publish.yml/badge.svg)](https://github.com/GITHUB-ORGANIZATION/REPOSITORY-NAME/actions/workflows/publish.yml)
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/GITHUB-ORHANIZATION/REPOSITORY-NAME)
+
 repository-name
 # Repository Name
 
