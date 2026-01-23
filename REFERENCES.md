@@ -10,3 +10,4 @@
 - [SolidJS](https://solidjs.com/)
 - [Spec Kit](https://github.com/vanHeemstraSystems/spec-kit)
 - [Using AI as my Engineering Copilot not Autopilot](https://depot.dev/blog/using-ai-as-my-engineering-copilot-not-autopilot)
+- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code)
