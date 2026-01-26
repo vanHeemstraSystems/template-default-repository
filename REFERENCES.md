@@ -1,6 +1,7 @@
 # References
 
 - [Architecting Intelligent Software: Crafting Robust and Scalable AI Systems for Modern Software Development](https://www.packtpub.com/en-us/product/architecting-intelligent-software-9781804619469)
+- [Browser Use](https://browser-use.com)
 - [Building React Apps in an Nx Monorepo](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial)
 - [Claude MPM User Documentation](https://github.com/vanHeemstraSystems/claude-mpm/tree/main/docs/user)
 - [Quickstart for remote Claude Code agents on Depot](https://depot.dev/docs/agents/claude-code/quickstart)
